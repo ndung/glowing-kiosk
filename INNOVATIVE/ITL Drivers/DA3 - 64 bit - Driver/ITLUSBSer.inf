@@ -1,0 +1,67 @@
+[Version]
+Signature="$Windows NT$"
+Class=Ports
+ClassGuid={4D36E978-E325-11CE-BFC1-08002BE10318}
+Provider=%ITL%
+LayoutFile=layout.inf
+DriverVer=10/15/1999,5.0.2153.2
+
+[MANUFACTURER]
+%ITL%=ITL,NTamd64
+
+
+[DestinationDirs]
+DefaultDestDir=12
+Reader.NT.Copy=12
+
+[ITL]
+%ITL_CDC%=DriverInstall,USB\VID_191C&PID_4104
+
+[ITL.NTamd64]
+%ITL_CDC%=DriverInstall,USB\VID_191C&PID_4104
+
+
+[DriverInstall]
+CopyFiles=DriverInstall.NT.Copy
+AddReg=DriverInstall.NT.AddReg
+
+[DriverInstall.ntamd64]
+CopyFiles=DriverInstall.NTamd64.Copy
+AddReg=DriverInstall.NTamd64.AddReg
+
+[DriverInstall.NT.Copy]
+usbser.sys
+
+[DriverInstall.NT.AddReg]
+HKR,,NTMPDriver,,*ntkern
+HKR,,NTMPDriver,,usbser.sys
+HKR,,EnumPropPages32,,"MsPorts.dll,SerialPortPageProvider"
+
+
+[DriverInstall.NTamd64.Copy]
+usbser.sys
+
+[DriverInstall.NTamd64.AddReg]
+HKR,,NTMPDriver,,*ntkern
+HKR,,NTMPDriver,,usbser.sys
+HKR,,EnumPropPages32,,"MsPorts.dll,SerialPortPageProvider"
+
+
+[DriverInstall.NT.Services]
+AddService = usbser, 0x00000002,Service_Inst
+[DriverInstall.NTamd64.Services]
+AddService = usbser, 0x00000002,Service_Inst
+
+
+[Service_Inst]
+DisplayName = %Serial.SvcDesc%
+ServiceType = 1
+StartType = 3
+ErrorControl = 1
+ServiceBinary = %12%\usbser.sys
+LoadOrderGroup=Base
+
+[Strings]
+ITL = "ITL"
+ITL_CDC = "ITL BV Serial"
+Serial.SvcDesc = "ITL USB Serial"

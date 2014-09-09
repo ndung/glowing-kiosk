@@ -1,0 +1,135 @@
+# ============================ Driver Version ============================= #
+# =                                                                       = #
+# =              TouchKit driver for 32bit Linux kernel 2.6.x             = #
+# =                                                                       = #
+# = Driver version: 2.06.2410-32b-k26                                     = #
+# = Module version: 2.06                                                  = #
+# = Utilty version: 2.06.2410                                             = #
+# =                                           released date: 2008/12/10   = #
+# =                                           support: touch_fae@eeti.com = #
+# =============================== File List =============================== #
+
+(*) Installation with script file:
+    User can run the "setup.sh" script to install the driver archive
+    easily in a terminal window.
+
+    Syntax:
+        sh setup.sh            # To install the TouchKti driver.
+    or  sh setup.sh uninstall  # To remove the TouchKit driver.
+    or  sh setup.sh version    # To get the installer version.
+
+    Note that the root permission is required to run this installation
+    script. Otherwise, below error messages would be popped up.
+    ( Assume, the working distribution is Ubuntu 8.04 )
+
+    test@test-desktop:~$ sh setup.sh
+    (*) Linux driver installer for TouchKit controller
+
+    (I) Check user permission: test, you are NOT the supervisor.
+    (E) The root permission is required to run this installer.
+
+    The user can get the root permission by the following command.
+    For example:
+                su        ( For general Linux )
+            or  sudo -s   ( For Ubuntu series only )
+
+(*) Driver archive installation:
+
+    root@test-desktop:~# sh setup.sh
+    (*) Linux driver installer for TouchKit controller
+
+    (I) Check user permission: root, you are the supervisor.
+    (I) Begin to setup TouchKit driver.
+    (I) Extract TouchKit driver archive to /usr/local/TouchKit32.
+    (I) Create TouchKit utility shortcut in /usr/bin.
+    (I) Create TKCal tool shortcut in /usr/bin.
+    (I) Searching the X input modules directory.
+    (I) Check X window version: 1.4.x
+    (I) Copy X module: x14/egalax_drv.so to /usr/lib/xorg/modules/input.
+
+    (Q) Which interface of controller do you use?
+    (I) [1] RS232 [2] PS/2 [3] USB: 1
+    (Q) Which COM port will be connected? e.g. /dev/ttyS0 (COM1)
+    (A) Please input: /dev/ttyS0
+
+    (I) Found X configuration file: /etc/X11/xorg.conf.
+    (I) Add touch configuration into /etc/X11/xorg.conf.
+
+    (I) Please reboot the system for some changes to take effect.
+    (I) After booting, type "TouchKit" to do calibration.
+
+  1. For serial RS232 interface:
+    (Q) Which interface controller do you use?
+    (I) [1] RS232 [2] PS/2 [3] USB: 1
+    (Q) Which COM port will be connected? e.g. /dev/ttyS0 (COM1)
+    (A) Please input: /dev/ttyS4
+
+    Note that the user has to input correct serial device node
+    where the controller connected.
+    For example:
+            /dev/ttyS4    ( Connected to COM5 )
+
+  2. For PS/2 interface:
+    (Q) Which interface controller do you use?
+    (I) [1] RS232 [2] PS/2 [3] USB: 2
+    (I) Using interface: PS/2
+    (I) Please make sure the kernel module for PS/2 controller is available.
+    (I) For details, see the document "How to rebuild kernel.pdf".
+
+  3. For USB interface:
+    (Q) Which interface controller do you use?
+    (I) [1] RS232 [2] PS/2 [3] USB: 3
+    (I) Using interface: USB
+    (I) Found a HID compliant touch controller.
+    (I) Found inbuilt kernel module: usbtouchscreen.
+    (I) It is highly recommended that add it into blacklist.
+    (Q) Do you want to add it into blacklist? (y/n) y
+    (I) Add kernel module usbtouchscreen into /etc/modprobe.d/blacklist.
+
+    Note that it is highly recommended that add inbuilt kernel module
+    "usbtouchscreen" or "touchkitusb" into blacklist to avoid conflict
+    if the touch controller is HID compliant device.
+
+    (Q) Which interface controller do you use?
+    (I) [1] RS232 [2] PS/2 [3] USB: 3
+    (I) Using interface: USB
+    (I) Found a non-HID compliant touch controller.
+    (W) No inbuilt kernel module for touch controller found.
+    (I) It is needed to build "tkusb" kernel module for touch controller.
+    (I) For details, see the document "How to build module.pdf".
+
+    Note that the user needs to build the TouchKit kernel module "tkusb"
+    for touch controller if the inbuilt kernel module "usbtouchscreen" or
+    "touchkitusb" does NOT exist in the kernel.
+
+(*) Driver archive un-installation
+
+    root@test-desktop:~# sh setup.sh uninstall
+    (*) Linux driver installer for TouchKit controller
+
+    (I) Check user permission: root, you are the supervisor.
+    (I) Begin to remove TouchKit driver.
+    (I) Removed TouchKit driver archive from /usr/local/TouchKit32.
+    (I) Removed TouchKit utility shortcut.
+    (I) Removed TKCal tool shortcut.
+    (I) Searching the X input modules directory.
+    (I) Removed X module.
+    (I) Removed blacklist usbtouchscreen from /etc/modprobe.d/blacklist.
+    (I) Found X configuration file: /etc/X11/xorg.conf.
+    (I) Removed touch configuration from /etc/X11/xorg.conf.
+
+    (I) The TouchKit driver has been removed successfully.
+    (I) Please reboot the system for some changes to take effect.
+
+(*) The version of the installer
+
+    root@test-desktop:~# sh setup.sh version
+    (*) Linux driver installer for TouchKit controller
+
+    (I) Version: 1.02.1030
+
+    For more information about X configuration setting, please see the
+    section "Installation of the Xorg module manually" in the document
+    "Driver Guide.pdf".
+
+# ========================================================================= #

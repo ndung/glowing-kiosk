@@ -1,0 +1,28 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Advanced Device Programming - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\Wazer\LOCALS~1\Temp\RSP64.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/Advanced Device Programming.pdb" /debug /machine:I386 /out:"Debug/Advanced Device Programming.exe" /pdbtype:sept 
+".\Debug\Advanced Device Programming.obj"
+".\Debug\Advanced Device ProgrammingDlg.obj"
+".\Debug\StdAfx.obj"
+".\Debug\Advanced Device Programming.res"
+".\Winscard.lib"
+]
+Creating command line "link.exe @C:\DOCUME~1\Wazer\LOCALS~1\Temp\RSP64.tmp"
+<h3>Output Window</h3>
+Linking...
+
+
+
+<h3>Results</h3>
+Advanced Device Programming.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

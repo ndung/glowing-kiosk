@@ -1,0 +1,15 @@
+Known issue:
+
+    Some old distributions with kernel 2.4.x does not have libXrandr.so.2
+    shared library for eGalax Touch utility, e.g. Red Hat Linux 8.
+    The error messages below might be shown on the screen after running
+    eGalax Touch utility.
+
+    Error:
+        ./eGalaxTouch: error while loading shared libraries: libXrandr.so.2:
+        cannot open shared object file: No such file or directory
+
+    The user can refer to the following suggestions to solve the problem.
+    1.) Upgrade the new system. e.g. Red Hat Linux 9.
+    2.) Use the TKCal tool which is compressed in TKCal directory to do
+        calibration instead of eGalax Touch utility.

@@ -1,0 +1,161 @@
+; cdcacmpo.inf
+;
+; Installation file (.inf) for the USB Serial device driver.
+;
+; Copyright © 2005-2010 Thesycon
+;
+; This file supports:
+;     Windows XP x64 Edition
+;     Windows Server 2003 x64 Edition
+;     Windows Vista x64
+;     Windows 7 x64
+
+
+[Version]
+Signature="$Windows NT$"
+Provider=%S_Provider%
+ClassGUID={4d36e978-e325-11ce-bfc1-08002be10318}
+Class=Ports
+CatalogFile=cdcacmpo_x64.cat
+DriverVer=06/09/2010,6.0.0.1
+
+;
+; Driver information
+;
+
+[Manufacturer]
+%S_Mfg%=_Devices, ntamd64
+
+[_Devices.ntamd64]
+; enter your VID (191C) and PID (4104) here
+%S_DeviceDesc1%=Install,USB\VID_191C&PID_4104
+; if a multi interface driver is installed enter also the interface number (II)
+; %S_DeviceDesc1%=Install,USB\VID_191C&PID_4104&MI_II
+; for more information have a look at the documentation
+
+;
+; General installation section
+;
+
+[Install.ntamd64]
+CopyFiles=_CopyFiles_sys
+AddReg=Common_AddReg
+
+[Install.ntamd64.HW]
+AddReg=_AddReg_Param
+
+;
+; Service Installation
+;
+
+[Install.ntamd64.Services]
+AddService = %S_ServiceName%, 0x00000002 , Install_Service_Inst, Install_EventLog_Inst
+AddReg = _AddRegService
+
+[Install_Service_Inst]
+ServiceType    = 1                  ; SERVICE_KERNEL_DRIVER
+StartType      = 3                  ; SERVICE_DEMAND_START
+ErrorControl   = 1                  ; SERVICE_ERROR_NORMAL
+ServiceBinary  = %12%\%S_DriverName%.sys
+
+
+[Install_EventLog_Inst]
+AddReg = Install_EventLog_AddReg
+
+[Install_EventLog_AddReg]
+HKR,,EventMessageFile,0x00020000,"%SystemRoot%\System32\IoLogMsg.dll;%SystemRoot%\System32\drivers\%S_DriverName%.sys"
+HKR,,TypesSupported,0x00010001,7
+
+
+[_AddRegService]
+HKR,,Parameters,,,
+
+
+[_AddReg_Param]
+; *********************************************************************
+; *** the read buffer size grater than the FIFO size requires short ***
+; *** packets from the device, see documentation for details!       ***
+; *********************************************************************
+HKR,,ReadBufferSize,  %REG_DWORD%, 1024
+HKR,,WriteBufferSize, %REG_DWORD%, 1024
+HKR,,UseLogicBuffer,  %REG_DWORD%, 0
+HKR,,ReadBufferCount, %REG_DWORD%, 3
+HKR,,WriteBufferCount,%REG_DWORD%, 3
+HKR,,SendLineCoding,  %REG_DWORD%, 1
+HKR,,SendLineState,   %REG_DWORD%, 1
+HKR,,SendBreak,       %REG_DWORD%, 1
+
+; 0 - CDCACM, 1 - Bulk Only, 2 - Bulk special, 3 - automatic
+HKR,,OperationMode,%REG_DWORD%, 3
+
+; set this to 0 to suppress the Clear Feature Endpoint Halt during Open and Wakeup
+; this does not work on Windows 2000!
+HKR,,ClearFeatureOnStart,%REG_DWORD%, 0
+HKR,,VendorPipeReset,%REG_DWORD%, 0
+
+; default serial line states reported in bulk only mode or 
+; if the device never updates the status values
+; use a or'ed value of: CTS=0x10, DSR=0x20, RI=0x40, DCD=0x80
+HKR,,DefaultLineState,%REG_DWORD%, 0x10
+
+; the next line enables the private interface, comment it, if it is not required
+; create a new GUID and use the new GUID instead of this
+; use the new GUID as an argument to CPortInfo::EnumeratePorts();
+HKR,,DriverUserInterfaceGuid,%REG_SZ%,"{8B8E3F58-5AE5-4778-8F9D-79715CDC2808}"
+
+HKR,,StaticDeviceObject,%REG_DWORD%,1
+HKR,,ClearRtsDtrOnClose,%REG_DWORD%,0
+; 0 - user timeout with STATUS_TIMEOUT, no bytes transferred
+; 1 - emulate send with transfer time, STATUS_SUCCESS, all bytes transferred
+HKR,,DisConWriteMode,%REG_DWORD%,0
+
+; the default prefix for the device object
+HKR,,DeviceObjectName,%REG_SZ%,"USBSER"
+
+
+[Common_AddReg]
+; is a serial port
+HKR,,PortSubClass,1,01
+; property page, system default
+HKR,,EnumPropPages32,,"MsPorts.dll,SerialPortPropPageProvider"
+
+[DestinationDirs]
+DefaultDestDir   = 12
+_CopyFiles_sys = 12
+
+;
+; Source file information
+;
+
+[SourceDisksNames.amd64]
+1 = %S_DiskName%,,,""
+
+[SourceDisksFiles.amd64]
+itlusbdevice_x64.sys = 1,,
+
+[_CopyFiles_sys]
+itlusbdevice_x64.sys,,,0x00000004
+
+[Strings]
+
+;
+; Non-Localizable Strings
+;
+
+REG_SZ         = 0x00000000
+REG_MULTI_SZ   = 0x00010000
+REG_EXPAND_SZ  = 0x00020000
+REG_BINARY     = 0x00000001
+REG_DWORD      = 0x00010001
+SERVICEROOT    = "System\CurrentControlSet\Services"
+
+;
+; Localizable Strings
+;
+S_Provider="itlusbdevice"
+S_Mfg="itlusbdevice"
+S_DeviceDesc1="ITL BV Serial V2 (x64)"
+S_DiskName="ITL BV Serial Drivers"
+S_DriverName="itlusbdevice_x64"
+S_ServiceName="itlusbdevice"
+

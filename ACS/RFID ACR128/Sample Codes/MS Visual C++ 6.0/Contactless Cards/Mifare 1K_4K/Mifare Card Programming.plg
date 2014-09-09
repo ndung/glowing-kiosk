@@ -1,0 +1,67 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Mifare Card Programming - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\Wazer\AppData\Local\Temp\RSP9171.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/Mifare Card Programming.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\Programs\ACR128 Sample Codes\Finished Sample Codes in C++\C++\Mifare Card Programming\Mifare Card ProgrammingDlg.cpp"
+]
+Creating command line "cl.exe @C:\Users\Wazer\AppData\Local\Temp\RSP9171.tmp" 
+Creating temporary file "C:\Users\Wazer\AppData\Local\Temp\RSP9172.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/Mifare Card Programming.pdb" /debug /machine:I386 /out:"Debug/Mifare Card Programming.exe" /pdbtype:sept 
+".\Debug\Mifare Card Programming.obj"
+".\Debug\Mifare Card ProgrammingDlg.obj"
+".\Debug\StdAfx.obj"
+".\Debug\Mifare Card Programming.res"
+".\Winscard.lib"
+]
+Creating command line "link.exe @C:\Users\Wazer\AppData\Local\Temp\RSP9172.tmp"
+<h3>Output Window</h3>
+Compiling...
+Mifare Card ProgrammingDlg.cpp
+E:\Programs\ACR128 Sample Codes\Finished Sample Codes in C++\C++\Mifare Card Programming\Mifare Card ProgrammingDlg.cpp(235) : warning C4018: '!=' : signed/unsigned mismatch
+E:\Programs\ACR128 Sample Codes\Finished Sample Codes in C++\C++\Mifare Card Programming\Mifare Card ProgrammingDlg.cpp(267) : warning C4018: '!=' : signed/unsigned mismatch
+E:\Programs\ACR128 Sample Codes\Finished Sample Codes in C++\C++\Mifare Card Programming\Mifare Card ProgrammingDlg.cpp(281) : warning C4018: '!=' : signed/unsigned mismatch
+E:\Programs\ACR128 Sample Codes\Finished Sample Codes in C++\C++\Mifare Card Programming\Mifare Card ProgrammingDlg.cpp(297) : warning C4018: '!=' : signed/unsigned mismatch
+E:\Programs\ACR128 Sample Codes\Finished Sample Codes in C++\C++\Mifare Card Programming\Mifare Card ProgrammingDlg.cpp(307) : warning C4018: '!=' : signed/unsigned mismatch
+E:\Programs\ACR128 Sample Codes\Finished Sample Codes in C++\C++\Mifare Card Programming\Mifare Card ProgrammingDlg.cpp(1074) : warning C4805: '==' : unsafe mix of type 'int' and type 'const bool' in operation
+E:\Programs\ACR128 Sample Codes\Finished Sample Codes in C++\C++\Mifare Card Programming\Mifare Card ProgrammingDlg.cpp(1084) : warning C4805: '==' : unsafe mix of type 'int' and type 'const bool' in operation
+E:\Programs\ACR128 Sample Codes\Finished Sample Codes in C++\C++\Mifare Card Programming\Mifare Card ProgrammingDlg.cpp(1159) : warning C4805: '==' : unsafe mix of type 'int' and type 'const bool' in operation
+E:\Programs\ACR128 Sample Codes\Finished Sample Codes in C++\C++\Mifare Card Programming\Mifare Card ProgrammingDlg.cpp(1215) : warning C4805: '==' : unsafe mix of type 'int' and type 'const bool' in operation
+E:\Programs\ACR128 Sample Codes\Finished Sample Codes in C++\C++\Mifare Card Programming\Mifare Card ProgrammingDlg.cpp(1240) : warning C4805: '==' : unsafe mix of type 'int' and type 'const bool' in operation
+E:\Programs\ACR128 Sample Codes\Finished Sample Codes in C++\C++\Mifare Card Programming\Mifare Card ProgrammingDlg.cpp(1297) : warning C4805: '==' : unsafe mix of type 'int' and type 'const bool' in operation
+E:\Programs\ACR128 Sample Codes\Finished Sample Codes in C++\C++\Mifare Card Programming\Mifare Card ProgrammingDlg.cpp(1329) : warning C4805: '==' : unsafe mix of type 'int' and type 'const bool' in operation
+E:\Programs\ACR128 Sample Codes\Finished Sample Codes in C++\C++\Mifare Card Programming\Mifare Card ProgrammingDlg.cpp(1342) : warning C4805: '==' : unsafe mix of type 'int' and type 'const bool' in operation
+E:\Programs\ACR128 Sample Codes\Finished Sample Codes in C++\C++\Mifare Card Programming\Mifare Card ProgrammingDlg.cpp(1436) : warning C4018: '!=' : signed/unsigned mismatch
+E:\Programs\ACR128 Sample Codes\Finished Sample Codes in C++\C++\Mifare Card Programming\Mifare Card ProgrammingDlg.cpp(1507) : warning C4018: '<' : signed/unsigned mismatch
+E:\Programs\ACR128 Sample Codes\Finished Sample Codes in C++\C++\Mifare Card Programming\Mifare Card ProgrammingDlg.cpp(1593) : warning C4244: '=' : conversion from 'unsigned long' to 'unsigned char', possible loss of data
+E:\Programs\ACR128 Sample Codes\Finished Sample Codes in C++\C++\Mifare Card Programming\Mifare Card ProgrammingDlg.cpp(1594) : warning C4244: '=' : conversion from 'unsigned long' to 'unsigned char', possible loss of data
+E:\Programs\ACR128 Sample Codes\Finished Sample Codes in C++\C++\Mifare Card Programming\Mifare Card ProgrammingDlg.cpp(1595) : warning C4244: '=' : conversion from 'unsigned long' to 'unsigned char', possible loss of data
+E:\Programs\ACR128 Sample Codes\Finished Sample Codes in C++\C++\Mifare Card Programming\Mifare Card ProgrammingDlg.cpp(1596) : warning C4244: '=' : conversion from 'unsigned long' to 'unsigned char', possible loss of data
+E:\Programs\ACR128 Sample Codes\Finished Sample Codes in C++\C++\Mifare Card Programming\Mifare Card ProgrammingDlg.cpp(1678) : warning C4244: '=' : conversion from 'unsigned long' to 'unsigned char', possible loss of data
+E:\Programs\ACR128 Sample Codes\Finished Sample Codes in C++\C++\Mifare Card Programming\Mifare Card ProgrammingDlg.cpp(1679) : warning C4244: '=' : conversion from 'unsigned long' to 'unsigned char', possible loss of data
+E:\Programs\ACR128 Sample Codes\Finished Sample Codes in C++\C++\Mifare Card Programming\Mifare Card ProgrammingDlg.cpp(1680) : warning C4244: '=' : conversion from 'unsigned long' to 'unsigned char', possible loss of data
+E:\Programs\ACR128 Sample Codes\Finished Sample Codes in C++\C++\Mifare Card Programming\Mifare Card ProgrammingDlg.cpp(1681) : warning C4244: '=' : conversion from 'unsigned long' to 'unsigned char', possible loss of data
+E:\Programs\ACR128 Sample Codes\Finished Sample Codes in C++\C++\Mifare Card Programming\Mifare Card ProgrammingDlg.cpp(1763) : warning C4244: '=' : conversion from 'unsigned long' to 'unsigned char', possible loss of data
+E:\Programs\ACR128 Sample Codes\Finished Sample Codes in C++\C++\Mifare Card Programming\Mifare Card ProgrammingDlg.cpp(1764) : warning C4244: '=' : conversion from 'unsigned long' to 'unsigned char', possible loss of data
+E:\Programs\ACR128 Sample Codes\Finished Sample Codes in C++\C++\Mifare Card Programming\Mifare Card ProgrammingDlg.cpp(1765) : warning C4244: '=' : conversion from 'unsigned long' to 'unsigned char', possible loss of data
+E:\Programs\ACR128 Sample Codes\Finished Sample Codes in C++\C++\Mifare Card Programming\Mifare Card ProgrammingDlg.cpp(1766) : warning C4244: '=' : conversion from 'unsigned long' to 'unsigned char', possible loss of data
+E:\Programs\ACR128 Sample Codes\Finished Sample Codes in C++\C++\Mifare Card Programming\Mifare Card ProgrammingDlg.cpp(1786) : warning C4101: 'tempval1' : unreferenced local variable
+Linking...
+Creating command line "bscmake.exe /nologo /o"Debug/Mifare Card Programming.bsc"  ".\Debug\StdAfx.sbr" ".\Debug\Mifare Card Programming.sbr" ".\Debug\Mifare Card ProgrammingDlg.sbr""
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+Mifare Card Programming.exe - 0 error(s), 28 warning(s)
+</pre>
+</body>
+</html>

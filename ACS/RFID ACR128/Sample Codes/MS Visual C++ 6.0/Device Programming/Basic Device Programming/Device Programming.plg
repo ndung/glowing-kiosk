@@ -1,0 +1,48 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Device Programming - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\Wazer\LOCALS~1\Temp\RSP49.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/Device Programming.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\Programs\ACR128 Sample Codes\Finished Sample Codes in C++\C++\Device Programming\Device ProgrammingDlg.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Wazer\LOCALS~1\Temp\RSP49.tmp" 
+Creating temporary file "C:\DOCUME~1\Wazer\LOCALS~1\Temp\RSP4A.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/Device Programming.pdb" /debug /machine:I386 /out:"Debug/Device Programming.exe" /pdbtype:sept 
+".\Debug\Device Programming.obj"
+".\Debug\Device ProgrammingDlg.obj"
+".\Debug\StdAfx.obj"
+".\Debug\Device Programming.res"
+".\Winscard.lib"
+]
+Creating command line "link.exe @C:\DOCUME~1\Wazer\LOCALS~1\Temp\RSP4A.tmp"
+<h3>Output Window</h3>
+Compiling...
+Device ProgrammingDlg.cpp
+E:\Programs\ACR128 Sample Codes\Finished Sample Codes in C++\C++\Device Programming\Device ProgrammingDlg.cpp(117) : warning C4018: '<=' : signed/unsigned mismatch
+E:\Programs\ACR128 Sample Codes\Finished Sample Codes in C++\C++\Device Programming\Device ProgrammingDlg.cpp(143) : warning C4018: '<=' : signed/unsigned mismatch
+E:\Programs\ACR128 Sample Codes\Finished Sample Codes in C++\C++\Device Programming\Device ProgrammingDlg.cpp(743) : warning C4805: '==' : unsafe mix of type 'int' and type 'const bool' in operation
+E:\Programs\ACR128 Sample Codes\Finished Sample Codes in C++\C++\Device Programming\Device ProgrammingDlg.cpp(750) : warning C4805: '==' : unsafe mix of type 'int' and type 'const bool' in operation
+E:\Programs\ACR128 Sample Codes\Finished Sample Codes in C++\C++\Device Programming\Device ProgrammingDlg.cpp(966) : warning C4805: '==' : unsafe mix of type 'int' and type 'const bool' in operation
+E:\Programs\ACR128 Sample Codes\Finished Sample Codes in C++\C++\Device Programming\Device ProgrammingDlg.cpp(973) : warning C4805: '==' : unsafe mix of type 'int' and type 'const bool' in operation
+E:\Programs\ACR128 Sample Codes\Finished Sample Codes in C++\C++\Device Programming\Device ProgrammingDlg.cpp(980) : warning C4805: '==' : unsafe mix of type 'int' and type 'const bool' in operation
+E:\Programs\ACR128 Sample Codes\Finished Sample Codes in C++\C++\Device Programming\Device ProgrammingDlg.cpp(987) : warning C4805: '==' : unsafe mix of type 'int' and type 'const bool' in operation
+E:\Programs\ACR128 Sample Codes\Finished Sample Codes in C++\C++\Device Programming\Device ProgrammingDlg.cpp(994) : warning C4805: '==' : unsafe mix of type 'int' and type 'const bool' in operation
+E:\Programs\ACR128 Sample Codes\Finished Sample Codes in C++\C++\Device Programming\Device ProgrammingDlg.cpp(1001) : warning C4805: '==' : unsafe mix of type 'int' and type 'const bool' in operation
+E:\Programs\ACR128 Sample Codes\Finished Sample Codes in C++\C++\Device Programming\Device ProgrammingDlg.cpp(1008) : warning C4805: '==' : unsafe mix of type 'int' and type 'const bool' in operation
+E:\Programs\ACR128 Sample Codes\Finished Sample Codes in C++\C++\Device Programming\Device ProgrammingDlg.cpp(1015) : warning C4805: '==' : unsafe mix of type 'int' and type 'const bool' in operation
+Linking...
+
+
+
+<h3>Results</h3>
+Device Programming.exe - 0 error(s), 12 warning(s)
+</pre>
+</body>
+</html>

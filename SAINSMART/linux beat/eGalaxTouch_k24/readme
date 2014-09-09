@@ -1,0 +1,33 @@
+# ===================== Drvier Version ============================= #
+# =                                                                = #
+# =        eGalax Touch driver for 32bit Linux kernel 2.4.x        = #
+# =                                                                = #
+# = Driver version: 2.06.2905-32b-k24                              = #
+# = Module version: 2.06                                           = #
+# = Utilty version: 2.06.2501                                      = #
+# =                                    released date: 2009/05/05   = #
+# =                                    support: touch_fae@eeti.com = #
+# ======================== File List =============================== #
+
+  egalax_drv.o
+	X module for XFree86 4.x.
+  eGalaxTouch
+	Configuration utility for eGalax Touch touchscreen.
+
+	The Xorg module and configuration utility both support
+	RS232, PS/2 and USB interfaces at the same time.
+
+  Guide/How to build module.pdf
+	For more information about building a kernel module that
+	support USB eGalax Touch touchscreen.
+  Guide/Driver Guide.pdf
+	For more information about eGalax Touch driver.
+
+  TKCal/
+	The command line calibration tool for eGalax Touch touchscreen.
+	The user can do calibration without using eGalax Touch utility.
+
+  USBSrc/
+	The souce code of USB eGalax Touch kernel module.
+
+# ================================================================== #

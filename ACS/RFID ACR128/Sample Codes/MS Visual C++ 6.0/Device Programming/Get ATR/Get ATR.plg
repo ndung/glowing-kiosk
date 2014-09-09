@@ -1,0 +1,28 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Get ATR - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\Wazer\LOCALS~1\Temp\RSP55.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/Get ATR.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\Programs\ACR128 Sample Codes\Finished Sample Codes in C++\C++\Get ATR\Get ATRDlg.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Wazer\LOCALS~1\Temp\RSP55.tmp" 
+Creating command line "link.exe /nologo /subsystem:windows /incremental:yes /pdb:"Debug/Get ATR.pdb" /debug /machine:I386 /out:"Debug/Get ATR.exe" /pdbtype:sept  ".\Debug\Get ATR.obj" ".\Debug\Get ATRDlg.obj" ".\Debug\StdAfx.obj" ".\Debug\Get ATR.res" ".\Winscard.lib" "
+<h3>Output Window</h3>
+Compiling...
+Get ATRDlg.cpp
+E:\Programs\ACR128 Sample Codes\Finished Sample Codes in C++\C++\Get ATR\Get ATRDlg.cpp(874) : warning C4018: '!=' : signed/unsigned mismatch
+Linking...
+
+
+
+<h3>Results</h3>
+Get ATR.exe - 0 error(s), 1 warning(s)
+</pre>
+</body>
+</html>

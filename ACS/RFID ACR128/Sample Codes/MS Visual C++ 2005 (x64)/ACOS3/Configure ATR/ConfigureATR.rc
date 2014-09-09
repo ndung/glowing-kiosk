@@ -1,0 +1,303 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\ConfigureATR.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_ICON2               ICON                    "res\\ACOS Sample Codes.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG  0, 0, 235, 55
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About ConfigureATR"
+FONT 8, "MS Sans Serif"
+BEGIN
+    ICON            128,IDC_STATIC,11,17,20,20
+    LTEXT           "ConfigureATR Version 1.0",IDC_STATIC,40,10,119,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2005",IDC_STATIC,40,25,119,8
+    DEFPUSHBUTTON   "OK",IDOK,178,7,50,14,WS_GROUP
+END
+
+IDD_CONFIGUREATR_DIALOG DIALOGEX 0, 0, 393, 275
+STYLE DS_SETFONT | DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "ConfigureATR"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    PUSHBUTTON      "&Quit",IDCANCEL,16,254,81,14
+    CONTROL         "Select Reader",IDC_STATIC,"Static",SS_LEFTNOWORDWRAP | WS_GROUP,13,16,47,9
+    COMBOBOX        IDC_COMBO1,14,27,87,102,CBS_DROPDOWN | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "Initialize",IDC_BUTTON1,16,45,81,14
+    PUSHBUTTON      "&Connect",IDC_BUTTON2,16,63,81,14,WS_DISABLED
+    PUSHBUTTON      "&Get ATR",IDC_BUTTON3,16,81,81,14,WS_DISABLED
+    LISTBOX         IDC_LIST1,129,14,257,254,LBS_NOINTEGRALHEIGHT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Card BAUD Rate",IDC_STATIC,13,108,64,8
+    COMBOBOX        IDC_COMBO2,15,120,87,69,CBS_DROPDOWN | WS_DISABLED | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "No. of Historical Bytes",IDC_STATIC,13,138,96,11
+    COMBOBOX        IDC_COMBO3,15,150,87,58,CBS_DROPDOWN | WS_DISABLED | WS_VSCROLL | WS_TABSTOP
+    EDITTEXT        IDC_EDIT1,106,120,19,12,ES_CENTER | ES_UPPERCASE | ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_EDIT2,105,150,20,12,ES_CENTER | ES_UPPERCASE | ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_EDIT3,13,169,20,12,ES_CENTER | ES_UPPERCASE | ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_EDIT4,33,169,20,12,ES_CENTER | ES_UPPERCASE | ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_EDIT5,53,169,20,12,ES_CENTER | ES_UPPERCASE | ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_EDIT6,73,169,20,12,ES_CENTER | ES_UPPERCASE | ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_EDIT7,93,169,20,12,ES_CENTER | ES_UPPERCASE | ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_EDIT8,13,184,20,12,ES_CENTER | ES_UPPERCASE | ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_EDIT9,33,184,20,12,ES_CENTER | ES_UPPERCASE | ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_EDIT10,53,184,20,12,ES_CENTER | ES_UPPERCASE | ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_EDIT11,73,184,20,12,ES_CENTER | ES_UPPERCASE | ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_EDIT12,93,184,20,12,ES_CENTER | ES_UPPERCASE | ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_EDIT13,13,199,20,12,ES_CENTER | ES_UPPERCASE | ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_EDIT14,33,199,20,12,ES_CENTER | ES_UPPERCASE | ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_EDIT15,53,199,20,12,ES_CENTER | ES_UPPERCASE | ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_EDIT16,73,199,20,12,ES_CENTER | ES_UPPERCASE | ES_AUTOHSCROLL | WS_DISABLED
+    EDITTEXT        IDC_EDIT17,93,199,20,12,ES_CENTER | ES_UPPERCASE | ES_AUTOHSCROLL | WS_DISABLED
+    PUSHBUTTON      "&Update ATR",IDC_BUTTON4,15,215,81,14,WS_DISABLED
+    PUSHBUTTON      "&Reset",IDC_BUTTON5,15,239,81,14
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904B0"
+        BEGIN
+            VALUE "FileDescription", "ConfigureATR MFC Application"
+            VALUE "FileVersion", "1, 0, 0, 1"
+            VALUE "InternalName", "ConfigureATR"
+            VALUE "LegalCopyright", "Copyright (C) 2005"
+            VALUE "OriginalFilename", "ConfigureATR.EXE"
+            VALUE "ProductName", "ConfigureATR Application"
+            VALUE "ProductVersion", "1, 0, 0, 1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 48
+    END
+
+    IDD_CONFIGUREATR_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 6
+        RIGHTMARGIN, 386
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 268
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_CONFIGUREATR_DIALOG DLGINIT
+BEGIN
+    IDC_COMBO2, 0x403, 5, 0
+0x3639, 0x3030, "\000" 
+    IDC_COMBO2, 0x403, 6, 0
+0x3431, 0x3034, 0x0030, 
+    IDC_COMBO2, 0x403, 6, 0
+0x3832, 0x3038, 0x0030, 
+    IDC_COMBO2, 0x403, 6, 0
+0x3735, 0x3036, 0x0030, 
+    IDC_COMBO2, 0x403, 7, 0
+0x3131, 0x3235, 0x3030, "\000" 
+    IDC_COMBO3, 0x403, 3, 0
+0x3030, "\000" 
+    IDC_COMBO3, 0x403, 3, 0
+0x3130, "\000" 
+    IDC_COMBO3, 0x403, 3, 0
+0x3230, "\000" 
+    IDC_COMBO3, 0x403, 3, 0
+0x3330, "\000" 
+    IDC_COMBO3, 0x403, 3, 0
+0x3430, "\000" 
+    IDC_COMBO3, 0x403, 3, 0
+0x3530, "\000" 
+    IDC_COMBO3, 0x403, 3, 0
+0x3630, "\000" 
+    IDC_COMBO3, 0x403, 3, 0
+0x3730, "\000" 
+    IDC_COMBO3, 0x403, 3, 0
+0x3830, "\000" 
+    IDC_COMBO3, 0x403, 3, 0
+0x3930, "\000" 
+    IDC_COMBO3, 0x403, 3, 0
+0x4130, "\000" 
+    IDC_COMBO3, 0x403, 3, 0
+0x4230, "\000" 
+    IDC_COMBO3, 0x403, 3, 0
+0x4330, "\000" 
+    IDC_COMBO3, 0x403, 3, 0
+0x4430, "\000" 
+    IDC_COMBO3, 0x403, 3, 0
+0x4530, "\000" 
+    IDC_COMBO3, 0x403, 3, 0
+0x4630, "\000" 
+    IDC_COMBO3, 0x403, 3, 0
+0x4646, "\000" 
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDS_ABOUTBOX            "&About ConfigureATR..."
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// Unknown language: 0x64, 0x1 resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_FPO)
+#ifdef _WIN32
+LANGUAGE 0x64, 0x1
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_ICON1               ICON                    "res\\ACOS Sample Codes.ico"
+#endif    // Unknown language: 0x64, 0x1 resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif //_WIN32
+#include "res\ConfigureATR.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

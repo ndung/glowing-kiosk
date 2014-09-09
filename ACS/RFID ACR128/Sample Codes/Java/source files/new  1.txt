@@ -1,0 +1,1 @@
+mvn install:install-file -Dfile=D:\workplace\indo-cipta-guna\cipta-solusi\serverpulsa\icslib\dist\icsLib.jar -DgroupId=com.ics -DartifactId=pulsa -Dversion=1.0 -Dpackaging=jar -DgeneratePom=true

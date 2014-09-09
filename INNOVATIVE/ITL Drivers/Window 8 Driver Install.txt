@@ -1,0 +1,20 @@
+Windows 8 requires drivers to be signed by microsoft.  This will prevent installation of ITL 
+drivers being installed.
+
+If you have a windows 8 platform, the below instructions will disable this feature, and installation 
+can continue.
+
+Basically you have to boot in a non-standard mode.
+
+The easy way to do this is to use the Shutdown command with the  /o  parameter:
+So you open a admin level command prompt and type:
+
+shutdown.exe /r /o /f /t 0
+
+    /r         Full shutdown and restart the computer.
+    /o         Go to the advanced boot options menu and restart the computer.
+               Must be used with /r option.
+    /f         Force running applications to close without forewarning users.
+    /t xxx     Set the time-out period before shutdown to xxx seconds.
+
+When the system restarts you can select "Disable Driver Signature Enforcement" from the option screens.

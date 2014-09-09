@@ -1,0 +1,7 @@
+D:\workplace\indo-cipta-guna\RFID ACR128\Sample Codes\MS Visual C# 2005\ACOS3\ACOS3 Encrypt\bin\Debug\ACOSEncrypt.exe
+D:\workplace\indo-cipta-guna\RFID ACR128\Sample Codes\MS Visual C# 2005\ACOS3\ACOS3 Encrypt\bin\Debug\ACOSEncrypt.pdb
+D:\workplace\indo-cipta-guna\RFID ACR128\Sample Codes\MS Visual C# 2005\ACOS3\ACOS3 Encrypt\obj\Debug\ACOSEncrypt.csprojResolveAssemblyReference.cache
+D:\workplace\indo-cipta-guna\RFID ACR128\Sample Codes\MS Visual C# 2005\ACOS3\ACOS3 Encrypt\obj\Debug\ACOSEncrypt.Form1.resources
+D:\workplace\indo-cipta-guna\RFID ACR128\Sample Codes\MS Visual C# 2005\ACOS3\ACOS3 Encrypt\obj\Debug\ACOSEncrypt.csproj.GenerateResource.Cache
+D:\workplace\indo-cipta-guna\RFID ACR128\Sample Codes\MS Visual C# 2005\ACOS3\ACOS3 Encrypt\obj\Debug\ACOSEncrypt.exe
+D:\workplace\indo-cipta-guna\RFID ACR128\Sample Codes\MS Visual C# 2005\ACOS3\ACOS3 Encrypt\obj\Debug\ACOSEncrypt.pdb

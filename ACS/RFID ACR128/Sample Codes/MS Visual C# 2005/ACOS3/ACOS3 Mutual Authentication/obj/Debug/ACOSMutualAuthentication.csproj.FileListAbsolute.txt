@@ -1,0 +1,7 @@
+D:\workplace\indo-cipta-guna\RFID ACR128\Sample Codes\MS Visual C# 2005\ACOS3\ACOS3 Mutual Authentication\bin\Debug\ACOSMutualAuthentication.exe
+D:\workplace\indo-cipta-guna\RFID ACR128\Sample Codes\MS Visual C# 2005\ACOS3\ACOS3 Mutual Authentication\bin\Debug\ACOSMutualAuthentication.pdb
+D:\workplace\indo-cipta-guna\RFID ACR128\Sample Codes\MS Visual C# 2005\ACOS3\ACOS3 Mutual Authentication\obj\Debug\ACOSMutualAuthentication.csprojResolveAssemblyReference.cache
+D:\workplace\indo-cipta-guna\RFID ACR128\Sample Codes\MS Visual C# 2005\ACOS3\ACOS3 Mutual Authentication\obj\Debug\ACOSMutualAuthentication.Form1.resources
+D:\workplace\indo-cipta-guna\RFID ACR128\Sample Codes\MS Visual C# 2005\ACOS3\ACOS3 Mutual Authentication\obj\Debug\ACOSMutualAuthentication.csproj.GenerateResource.Cache
+D:\workplace\indo-cipta-guna\RFID ACR128\Sample Codes\MS Visual C# 2005\ACOS3\ACOS3 Mutual Authentication\obj\Debug\ACOSMutualAuthentication.exe
+D:\workplace\indo-cipta-guna\RFID ACR128\Sample Codes\MS Visual C# 2005\ACOS3\ACOS3 Mutual Authentication\obj\Debug\ACOSMutualAuthentication.pdb

@@ -1,0 +1,337 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\Advanced Device Programming.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\Advanced Device Programming.ico"
+IDR_SMALLICON           ICON    DISCARDABLE     "res\\ACS_Small.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 235, 55
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About Advanced Device Programming"
+FONT 8, "MS Sans Serif"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    LTEXT           "Advanced Device Programming Version 1.0",IDC_STATIC,40,
+                    10,119,8,SS_NOPREFIX
+    LTEXT           "Copyright (C) 2008",IDC_STATIC,40,25,119,8
+    DEFPUSHBUTTON   "OK",IDOK,178,7,50,14,WS_GROUP
+END
+
+IDD_ADVANCEDDEVICEPROGRAMMING_DIALOG DIALOGEX 0, 0, 624, 358
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "Advanced Device Programming"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "Select Reader",IDC_STATIC,14,15,48,13,SS_CENTERIMAGE
+    COMBOBOX        IDC_COMBO1,63,15,123,148,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "Initialize",IDC_BUTTON1,108,33,78,16
+    PUSHBUTTON      "Connect",IDC_BUTTON2,108,54,78,16
+    GROUPBOX        "FWI, Polling Timeout and Transmit Frame Size",
+                    IDC_STATIC,13,73,173,69
+    EDITTEXT        IDC_EDIT1,18,84,24,15,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT2,18,103,24,15,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT3,18,121,24,15,ES_AUTOHSCROLL
+    LTEXT           "FWI Value",IDC_STATIC,45,84,40,16,SS_CENTERIMAGE
+    LTEXT           "Polling Timeout",IDC_STATIC,45,102,50,16,SS_CENTERIMAGE
+    LTEXT           "Transmit Frame Size",IDC_STATIC,45,120,65,16,
+                    SS_CENTERIMAGE
+    PUSHBUTTON      "Get Current Values",IDC_BUTTON3,113,86,66,16
+    PUSHBUTTON      "Set Options",IDC_BUTTON4,113,105,66,16
+    GROUPBOX        "Antenna Field Setting",IDC_STATIC,13,143,173,51
+    PUSHBUTTON      "Get Current Setting",IDC_BUTTON5,107,152,72,16
+    PUSHBUTTON      "Set Antenna Option",IDC_BUTTON6,107,172,72,16
+    CONTROL         "Antenna ON",IDC_RADIO1,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,25,153,67,15
+    CONTROL         "Antenna OFF",IDC_RADIO2,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,25,172,67,15
+    GROUPBOX        "Transceiver Settings",IDC_STATIC,13,196,174,92
+    EDITTEXT        IDC_EDIT4,19,207,24,14,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_EDIT5,19,224,24,14,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_EDIT6,20,252,24,14,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_EDIT7,20,269,24,14,ES_AUTOHSCROLL
+    CONTROL         "        LP Filter (On/Off)",IDC_CHECK1,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,19,241,85,9
+    LTEXT           "Field Stop Time (x5 ms )",IDC_STATIC,46,207,77,14,
+                    SS_CENTERIMAGE
+    LTEXT           "Setup Time (x10 ms)",IDC_STATIC,46,224,77,14,
+                    SS_CENTERIMAGE
+    LTEXT           "Receiver Gain",IDC_STATIC,47,252,49,14,SS_CENTERIMAGE
+    LTEXT           "TX Mode",IDC_STATIC,47,269,34,14,SS_CENTERIMAGE
+    PUSHBUTTON      "Get Current Setting",IDC_BUTTON7,107,245,76,16
+    PUSHBUTTON      "Set Transceiver Options",IDC_BUTTON8,99,265,84,16
+    GROUPBOX        "PICC T=CL Data Exhange Error Handling",IDC_STATIC,13,
+                    292,174,54
+    EDITTEXT        IDC_EDIT8,20,305,24,14,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_EDIT9,20,324,24,14,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "PCD to PICC",IDC_STATIC,49,306,44,15,SS_CENTERIMAGE
+    LTEXT           "PICC to PCD",IDC_STATIC,49,324,44,15,SS_CENTERIMAGE
+    PUSHBUTTON      "Get Current Value",IDC_BUTTON9,107,303,72,17
+    PUSHBUTTON      "Set Error Handling",IDC_BUTTON10,107,324,72,17
+    GROUPBOX        "PICC Settings",IDC_STATIC,189,15,208,110
+    EDITTEXT        IDC_EDIT11,194,25,19,15,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT12,194,42,19,15,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT13,194,58,19,15,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT14,194,74,19,15,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT15,194,90,19,15,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT16,194,106,19,15,ES_AUTOHSCROLL
+    LTEXT           "MOD_B1",IDC_STATIC,216,25,34,16,SS_CENTERIMAGE
+    LTEXT           "COND_B1",IDC_STATIC,215,42,34,16,SS_CENTERIMAGE
+    LTEXT           "RX_B1",IDC_STATIC,216,57,34,16,SS_CENTERIMAGE
+    LTEXT           "MOD_B2",IDC_STATIC,216,74,34,16,SS_CENTERIMAGE
+    LTEXT           "COND_B2",IDC_STATIC,215,90,34,16,SS_CENTERIMAGE
+    LTEXT           "RX_B2",IDC_STATIC,215,106,34,16,SS_CENTERIMAGE
+    EDITTEXT        IDC_EDIT17,263,26,19,15,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT18,263,42,19,15,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT19,263,58,19,15,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT20,263,74,19,15,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT21,263,90,19,15,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT22,263,106,19,15,ES_AUTOHSCROLL
+    LTEXT           "MOD_A1",IDC_STATIC,286,25,35,16,SS_CENTERIMAGE
+    LTEXT           "COND_A1",IDC_STATIC,285,42,35,16,SS_CENTERIMAGE
+    LTEXT           "RX_A1",IDC_STATIC,286,58,35,16,SS_CENTERIMAGE
+    LTEXT           "MOD_A2",IDC_STATIC,286,74,35,16,SS_CENTERIMAGE
+    LTEXT           "COND_A2",IDC_STATIC,286,91,35,16,SS_CENTERIMAGE
+    LTEXT           "RX_A2",IDC_STATIC,286,106,35,16,SS_CENTERIMAGE
+    PUSHBUTTON      "Get PICC Settings",IDC_BUTTON11,329,79,62,17
+    PUSHBUTTON      "Set PICC Options",IDC_BUTTON12,329,99,62,17
+    GROUPBOX        "Polling for Specific PICC Types",IDC_STATIC,189,127,208,
+                    95
+    CONTROL         "ISO14443 Type A Only",IDC_RADIO3,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP,197,140,90,14
+    CONTROL         "ISO14443 Type B Only",IDC_RADIO4,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP,197,154,90,14
+    CONTROL         "ISO14443 Types A/B",IDC_RADIO5,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP,197,167,90,14
+    PUSHBUTTON      "Get Current Setting",IDC_BUTTON13,324,138,67,17
+    PUSHBUTTON      "Set PICC Type",IDC_BUTTON14,324,158,67,17
+    PUSHBUTTON      "Start Auto Detection",IDC_BUTTON15,324,178,67,17
+    LTEXT           "Message:",IDC_STATIC,199,200,33,14,SS_CENTERIMAGE
+    EDITTEXT        IDC_EDIT23,233,200,158,16,ES_AUTOHSCROLL
+    GROUPBOX        "PPS Setting (Communication Speed)",IDC_STATIC,189,223,
+                    208,124
+    GROUPBOX        "Maximum Speed",IDC_STATIC,201,234,73,88
+    GROUPBOX        "Current Speed",IDC_STATIC,301,234,79,87
+    CONTROL         "106 kbps",IDC_RADIO6,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,209,247,52,12
+    CONTROL         "212 kbps",IDC_RADIO7,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,209,260,52,12
+    CONTROL         "424 kbps",IDC_RADIO8,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,209,274,52,12
+    CONTROL         "848 kbps",IDC_RADIO9,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,209,287,52,12
+    CONTROL         "No Auto PPS",IDC_RADIO10,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,209,300,57,12
+    CONTROL         "106 kbps",IDC_RADIO11,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,311,247,52,12
+    CONTROL         "212 kbps",IDC_RADIO12,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,311,260,52,12
+    CONTROL         "424 kbps",IDC_RADIO13,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,311,274,52,12
+    CONTROL         "848 kbps",IDC_RADIO14,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,311,287,52,12
+    CONTROL         "No Auto PPS",IDC_RADIO15,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,311,300,57,12
+    PUSHBUTTON      "Get Current Setting",IDC_BUTTON16,232,326,74,17
+    PUSHBUTTON      "Set PPS Value",IDC_BUTTON17,310,326,74,17
+    GROUPBOX        "RC531 Register Setting",IDC_STATIC,399,14,211,58
+    EDITTEXT        IDC_EDIT24,413,28,20,16,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT25,413,48,20,16,ES_AUTOHSCROLL
+    LTEXT           "Register Number",IDC_STATIC,437,28,75,17,SS_CENTERIMAGE
+    LTEXT           "Register Value",IDC_STATIC,437,47,75,17,SS_CENTERIMAGE
+    PUSHBUTTON      "Get Current Value",IDC_BUTTON18,524,25,78,19
+    PUSHBUTTON      "Set New Value",IDC_BUTTON19,524,46,78,19
+    CONTROL         "",IDC_RICHEDIT1,"RICHEDIT",ES_MULTILINE | 
+                    ES_AUTOHSCROLL | WS_BORDER | WS_VSCROLL | WS_HSCROLL | 
+                    WS_TABSTOP,399,138,211,182
+    PUSHBUTTON      "Clear Screen",IDC_BUTTON20,400,325,68,18
+    PUSHBUTTON      "Reset",IDC_BUTTON21,470,325,68,18
+    PUSHBUTTON      "Quit",IDC_BUTTON22,540,325,68,18
+    GROUPBOX        "Refresh Interface Status",IDC_STATIC,399,73,211,63
+    CONTROL         "ICC Interface",IDC_RADIO16,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,411,86,68,14
+    CONTROL         "PICC Interface",IDC_RADIO17,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,411,103,68,14
+    CONTROL         "SAM Interface",IDC_RADIO18,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,411,118,68,14
+    PUSHBUTTON      "Refresh Interface",IDC_BUTTON23,523,113,80,19
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904B0"
+        BEGIN
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "Advanced Device Programming MFC Application\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "Advanced Device Programming\0"
+            VALUE "LegalCopyright", "Copyright (C) 2008\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "Advanced Device Programming.EXE\0"
+            VALUE "ProductName", "Advanced Device Programming Application\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 48
+    END
+
+    IDD_ADVANCEDDEVICEPROGRAMMING_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 617
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 351
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_ABOUTBOX            "&About Advanced Device Programming..."
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif //_WIN32
+#include "res\Advanced Device Programming.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

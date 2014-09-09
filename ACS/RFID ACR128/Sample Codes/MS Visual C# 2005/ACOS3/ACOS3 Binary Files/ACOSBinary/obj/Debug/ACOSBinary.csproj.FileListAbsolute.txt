@@ -1,0 +1,8 @@
+D:\workplace\indo-cipta-guna\RFID ACR128\Sample Codes\MS Visual C# 2005\ACOS3\ACOS3 Binary Files\ACOSBinary\bin\Debug\ACOSBinary.exe
+D:\workplace\indo-cipta-guna\RFID ACR128\Sample Codes\MS Visual C# 2005\ACOS3\ACOS3 Binary Files\ACOSBinary\bin\Debug\ACOSBinary.pdb
+D:\workplace\indo-cipta-guna\RFID ACR128\Sample Codes\MS Visual C# 2005\ACOS3\ACOS3 Binary Files\ACOSBinary\obj\Debug\ACOSBinary.csprojResolveAssemblyReference.cache
+D:\workplace\indo-cipta-guna\RFID ACR128\Sample Codes\MS Visual C# 2005\ACOS3\ACOS3 Binary Files\ACOSBinary\obj\Debug\ACOSBinary.MainACOSBin.resources
+D:\workplace\indo-cipta-guna\RFID ACR128\Sample Codes\MS Visual C# 2005\ACOS3\ACOS3 Binary Files\ACOSBinary\obj\Debug\ACOSBinary.Properties.Resources.resources
+D:\workplace\indo-cipta-guna\RFID ACR128\Sample Codes\MS Visual C# 2005\ACOS3\ACOS3 Binary Files\ACOSBinary\obj\Debug\ACOSBinary.csproj.GenerateResource.Cache
+D:\workplace\indo-cipta-guna\RFID ACR128\Sample Codes\MS Visual C# 2005\ACOS3\ACOS3 Binary Files\ACOSBinary\obj\Debug\ACOSBinary.exe
+D:\workplace\indo-cipta-guna\RFID ACR128\Sample Codes\MS Visual C# 2005\ACOS3\ACOS3 Binary Files\ACOSBinary\obj\Debug\ACOSBinary.pdb

@@ -1,0 +1,7 @@
+D:\workplace\indo-cipta-guna\RFID ACR128\Sample Codes\MS Visual C# 2005\ACOS3\Configure ATR\bin\Debug\Get ATR.exe
+D:\workplace\indo-cipta-guna\RFID ACR128\Sample Codes\MS Visual C# 2005\ACOS3\Configure ATR\bin\Debug\Get ATR.pdb
+D:\workplace\indo-cipta-guna\RFID ACR128\Sample Codes\MS Visual C# 2005\ACOS3\Configure ATR\obj\Debug\Configure ATR.csprojResolveAssemblyReference.cache
+D:\workplace\indo-cipta-guna\RFID ACR128\Sample Codes\MS Visual C# 2005\ACOS3\Configure ATR\obj\Debug\Get_ATR.Form1.resources
+D:\workplace\indo-cipta-guna\RFID ACR128\Sample Codes\MS Visual C# 2005\ACOS3\Configure ATR\obj\Debug\Configure ATR.csproj.GenerateResource.Cache
+D:\workplace\indo-cipta-guna\RFID ACR128\Sample Codes\MS Visual C# 2005\ACOS3\Configure ATR\obj\Debug\Get ATR.exe
+D:\workplace\indo-cipta-guna\RFID ACR128\Sample Codes\MS Visual C# 2005\ACOS3\Configure ATR\obj\Debug\Get ATR.pdb

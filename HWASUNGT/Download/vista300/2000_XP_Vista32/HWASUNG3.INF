@@ -1,0 +1,93 @@
+;
+;	Printer Installation File
+;
+;	 List of supported printers, manufacturers
+;
+
+[Version]
+Signature="$Windows NT$"
+Provider=%HW%
+ClassGUID={4D36E979-E325-11CE-BFC1-08002BE10318}
+Class=Printer
+
+[ClassInstall32.NT]
+AddReg=printer_class_addreg
+
+[printer_class_addreg]
+HKR,,,,%PrinterClassName%
+HKR,,Icon,,"-4"
+HKR,,Installer32,,"ntprint.dll,ClassInstall32"
+HKR,,NoDisplayClass,,1
+HKR,,EnumPropPages32,,"printui.dll,PrinterPropPageProvider"
+
+;
+; Manufacturer section.
+;
+; This section lists all of the manufacturers
+; that we will display in the Dialog box
+;
+
+[Manufacturer]
+"HWASUNG"
+
+;
+; Model Specifications Section
+;
+
+[HWASUNG]
+"HWASUNG HMK-060" = HMK-060.GPD,HWASUNGHWASUNG_HMK-04E5A,HWASUNG_HMK-060
+"HWASUNG HMK-080" = HMK-080.GPD,HWASUNGHWASUNG_HMK-02E5E,HWASUNG_HMK-080
+"HWASUNG HMK-825" = HMK-825.GPD,HWASUNGHWASUNG_HMK-84F19,HWASUNG_HMK-825
+"HWASUNG HP-058" = HP-058.GPD,HWASUNGHWASUNG_HP-0581B9,HWASUNG_HP-058
+
+;
+; Installer section(s) referenced above.
+;
+
+[HMK-060.GPD]
+CopyFiles=@HmW2k.Dll,@HMK-060.GPD
+DataSection=UNIDRV_DATA
+DataFile=HMK-060.GPD
+Include=NTPRINT.INF
+Needs=UNIDRV.OEM
+
+[HMK-080.GPD]
+CopyFiles=@HmW2k.Dll,@HMK-080.GPD
+DataSection=UNIDRV_DATA
+DataFile=HMK-080.GPD
+Include=NTPRINT.INF
+Needs=UNIDRV.OEM
+
+[HMK-825.GPD]
+CopyFiles=@HmW2k.dll,@HMK-825.GPD
+DataSection=UNIDRV_DATA
+DataFile=HMK-825.GPD
+Include=NTPRINT.INF
+Needs=UNIDRV.OEM
+
+[HP-058.GPD]
+CopyFiles=@HmW2k.Dll,@HP-058.GPD
+DataSection=UNIDRV_DATA
+DataFile=HP-058.GPD
+Include=NTPRINT.INF
+Needs=UNIDRV.OEM
+
+[DestinationDirs]
+DefaultDestDir=66000
+
+[SourceDisksNames.x86]
+1 = %disk1%,,,\i386
+
+[SourceDisksFiles]
+HmW2k.Dll = 1
+HMK-060.GPD = 1
+HMK-080.GPD = 1
+HmW2k.dll = 1
+HMK-825.GPD = 1
+HP-058.GPD = 1
+
+[Strings]
+PrinterClassName="Printers"
+HW="HWASUNG"
+disk1="HWASUNG Printer Driver Setup Disk"
+

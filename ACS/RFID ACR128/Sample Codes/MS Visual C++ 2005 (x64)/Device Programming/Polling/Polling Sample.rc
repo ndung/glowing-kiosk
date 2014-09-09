@@ -1,0 +1,265 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\Polling Sample.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\Polling Sample.ico"
+IDR_SMALLICON           ICON    DISCARDABLE     "res\\ACS_Small.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOG DISCARDABLE  0, 0, 235, 55
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About Polling Sample"
+FONT 8, "MS Sans Serif"
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,11,17,20,20
+    LTEXT           "Polling Sample Version 1.0",IDC_STATIC,40,10,119,8,
+                    SS_NOPREFIX
+    LTEXT           "Copyright (C) 2008",IDC_STATIC,40,25,119,8
+    DEFPUSHBUTTON   "OK",IDOK,178,7,50,14,WS_GROUP
+END
+
+IDD_POLLINGSAMPLE_DIALOG DIALOGEX 0, 0, 478, 350
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "Polling Sample"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    LTEXT           "Select Reader",IDC_STATIC,13,15,48,13,SS_CENTERIMAGE
+    COMBOBOX        IDC_COMBO1,64,15,125,81,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "Initialize",IDC_BUTTON1,13,34,85,15
+    PUSHBUTTON      "Connect",IDC_BUTTON2,103,34,85,15
+    GROUPBOX        "Configuration Setting",IDC_STATIC,13,55,176,41
+    CONTROL         "Both ICC PICC interfaces can be activated",IDC_RADIO1,
+                    "Button",BS_AUTORADIOBUTTON | WS_GROUP,20,65,157,11
+    CONTROL         "Either ICC or PICC interface can be activated",
+                    IDC_RADIO2,"Button",BS_AUTORADIOBUTTON | WS_GROUP,20,80,
+                    161,10
+    GROUPBOX        "Current Mode",IDC_STATIC,13,102,176,39
+    CONTROL         "Exclusive Mode is not active",IDC_RADIO3,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP,19,112,164,10
+    CONTROL         "Exclusive Mode is active",IDC_RADIO4,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP,19,125,161,13
+    PUSHBUTTON      "Read Current Mode",IDC_BUTTON3,14,144,85,15
+    PUSHBUTTON      "Set Mode Configuration",IDC_BUTTON4,104,145,85,15
+    GROUPBOX        "Contactless Polling Options",IDC_STATIC,14,164,175,80
+    CONTROL         "Automatic PICC Polling",IDC_CHECK1,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,20,175,157,12
+    CONTROL         "Turn off antenna field if no PICC within range",
+                    IDC_CHECK2,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,20,186,
+                    161,12
+    CONTROL         "Turn off antenna field if PICC is inactive",IDC_CHECK3,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,20,197,164,12
+    CONTROL         "Activate the PICC when detected",IDC_CHECK4,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,20,208,163,12
+    CONTROL         "Test Mode",IDC_CHECK5,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,20,219,163,11
+    CONTROL         "Enforce ISO 14443A Part4",IDC_CHECK6,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,20,228,162,13
+    GROUPBOX        "Poll Interval",IDC_STATIC,14,247,65,64
+    CONTROL         "250 msec",IDC_RADIO5,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,21,257,47,11
+    CONTROL         "500msec",IDC_RADIO6,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,21,269,45,14
+    CONTROL         "1 sec",IDC_RADIO7,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,21,282,35,15
+    CONTROL         "2.5 sec",IDC_RADIO8,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,21,295,44,13
+    PUSHBUTTON      "Read Polling Option",IDC_BUTTON5,96,250,93,17
+    PUSHBUTTON      "Set Polling Option",IDC_BUTTON6,96,275,93,17
+    CONTROL         "",IDC_RICHEDIT1,"RICHEDIT",ES_MULTILINE | 
+                    ES_AUTOHSCROLL | ES_READONLY | WS_BORDER | WS_VSCROLL | 
+                    WS_HSCROLL | WS_TABSTOP,194,15,266,297
+    PUSHBUTTON      "Manual Card Detection",IDC_BUTTON7,13,319,83,17
+    PUSHBUTTON      "Start Auto Detection",IDC_BUTTON8,104,318,83,17
+    PUSHBUTTON      "Clear Screen",IDC_BUTTON9,195,319,83,17
+    PUSHBUTTON      "Reset",IDC_BUTTON10,286,318,83,17
+    PUSHBUTTON      "Quit",IDC_BUTTON11,378,318,83,17
+    PUSHBUTTON      "icc",IDC_BUTTON12,91,297,28,13,NOT WS_VISIBLE
+    PUSHBUTTON      "picc",IDC_BUTTON13,126,297,27,12,NOT WS_VISIBLE
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904B0"
+        BEGIN
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "Polling Sample MFC Application\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "Polling Sample\0"
+            VALUE "LegalCopyright", "Copyright (C) 2008\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "Polling Sample.EXE\0"
+            VALUE "ProductName", "Polling Sample Application\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 228
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 48
+    END
+
+    IDD_POLLINGSAMPLE_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 469
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 343
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_ABOUTBOX            "&About Polling Sample..."
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_INDICATOR_PANE1      " "
+    ID_INDICATOR_PANE2      " "
+    ID_INDICATOR_PANE3      " "
+    ID_INDICATOR_PANE4      " "
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif //_WIN32
+#include "res\Polling Sample.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

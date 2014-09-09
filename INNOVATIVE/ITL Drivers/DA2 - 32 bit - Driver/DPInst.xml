@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<dpInst>
+<legacyMode/>
+<forceIfDriverIsNotBetter />
+<enableNotListedLanguage />
+<dpinstTitle>DA2 Driver Installer</dpinstTitle>
+<welcomeTitle>Welcome to the DA2 Driver Installer!</welcomeTitle>
+<welcomeIntro>This wizard will install DA2 drivers.</welcomeIntro>
+<installHeaderTitle>Installing the software for your DA2 device...</installHeaderTitle>
+<finishTitle>Congratulations! You are finished installing your DA2 device.</finishTitle>
+<finishText>VCP drivers are now installed for your FTDI DA2 device.</finishText>
+<icon>ftdismall.ico</icon>
+<watermarkPath>FTDI.bmp</watermarkPath>
+</dpInst>

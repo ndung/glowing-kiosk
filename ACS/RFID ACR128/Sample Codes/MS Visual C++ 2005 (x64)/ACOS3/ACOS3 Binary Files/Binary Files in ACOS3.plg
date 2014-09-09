@@ -1,0 +1,51 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: Binary Files in ACOS3 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\Wazer\AppData\Local\Temp\RSP8DEA.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/Binary Files in ACOS3.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\Programs\Finished Sample Codes in C++\C++\Binary Files in ACOS3\Binary Files in ACOS3Dlg.cpp"
+]
+Creating command line "cl.exe @C:\Users\Wazer\AppData\Local\Temp\RSP8DEA.tmp" 
+Creating temporary file "C:\Users\Wazer\AppData\Local\Temp\RSP8DEB.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/Binary Files in ACOS3.pdb" /debug /machine:I386 /out:"Debug/Binary Files in ACOS3.exe" /pdbtype:sept 
+".\Debug\Binary Files in ACOS3.obj"
+".\Debug\Binary Files in ACOS3Dlg.obj"
+".\Debug\StdAfx.obj"
+".\Debug\Binary Files in ACOS3.res"
+".\Winscard.lib"
+]
+Creating command line "link.exe @C:\Users\Wazer\AppData\Local\Temp\RSP8DEB.tmp"
+<h3>Output Window</h3>
+Compiling...
+Binary Files in ACOS3Dlg.cpp
+E:\Programs\Finished Sample Codes in C++\C++\Binary Files in ACOS3\Binary Files in ACOS3Dlg.cpp(383) : warning C4018: '!=' : signed/unsigned mismatch
+E:\Programs\Finished Sample Codes in C++\C++\Binary Files in ACOS3\Binary Files in ACOS3Dlg.cpp(415) : warning C4018: '!=' : signed/unsigned mismatch
+E:\Programs\Finished Sample Codes in C++\C++\Binary Files in ACOS3\Binary Files in ACOS3Dlg.cpp(429) : warning C4018: '!=' : signed/unsigned mismatch
+E:\Programs\Finished Sample Codes in C++\C++\Binary Files in ACOS3\Binary Files in ACOS3Dlg.cpp(445) : warning C4018: '!=' : signed/unsigned mismatch
+E:\Programs\Finished Sample Codes in C++\C++\Binary Files in ACOS3\Binary Files in ACOS3Dlg.cpp(455) : warning C4018: '!=' : signed/unsigned mismatch
+E:\Programs\Finished Sample Codes in C++\C++\Binary Files in ACOS3\Binary Files in ACOS3Dlg.cpp(528) : warning C4101: 'tempstr' : unreferenced local variable
+E:\Programs\Finished Sample Codes in C++\C++\Binary Files in ACOS3\Binary Files in ACOS3Dlg.cpp(529) : warning C4101: 'index' : unreferenced local variable
+E:\Programs\Finished Sample Codes in C++\C++\Binary Files in ACOS3\Binary Files in ACOS3Dlg.cpp(579) : warning C4018: '!=' : signed/unsigned mismatch
+E:\Programs\Finished Sample Codes in C++\C++\Binary Files in ACOS3\Binary Files in ACOS3Dlg.cpp(701) : warning C4101: 'tempstr' : unreferenced local variable
+E:\Programs\Finished Sample Codes in C++\C++\Binary Files in ACOS3\Binary Files in ACOS3Dlg.cpp(702) : warning C4101: 'index' : unreferenced local variable
+E:\Programs\Finished Sample Codes in C++\C++\Binary Files in ACOS3\Binary Files in ACOS3Dlg.cpp(1416) : warning C4101: 'tempdata' : unreferenced local variable
+E:\Programs\Finished Sample Codes in C++\C++\Binary Files in ACOS3\Binary Files in ACOS3Dlg.cpp(1652) : warning C4018: '!=' : signed/unsigned mismatch
+Linking...
+Creating command line "bscmake.exe /nologo /o"Debug/Binary Files in ACOS3.bsc"  ".\Debug\StdAfx.sbr" ".\Debug\Binary Files in ACOS3.sbr" ".\Debug\Binary Files in ACOS3Dlg.sbr""
+Creating browse info file...
+<h3>Output Window</h3>
+
+
+
+<h3>Results</h3>
+Binary Files in ACOS3.exe - 0 error(s), 12 warning(s)
+</pre>
+</body>
+</html>

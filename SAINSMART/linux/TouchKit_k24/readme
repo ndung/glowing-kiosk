@@ -1,0 +1,33 @@
+# ===================== Drvier Version ============================= #
+# =                                                                = #
+# =          TouchKit driver for 32bit Linux kernel 2.4.x          = #
+# =                                                                = #
+# = Driver version: 2.06.2416-32b-k24                              = #
+# = Module version: 2.06                                           = #
+# = Utilty version: 2.06.2416                                      = #
+# =                                    released date: 2008/12/16   = #
+# =                                    support: touch_fae@eeti.com = #
+# ======================== File List =============================== #
+
+  egalax_drv.o
+	X module for XFree86 4.x.
+  TouchKit
+	Configuration utility for TouchKit touchscreen.
+
+	The Xorg module and configuration utility both support
+	RS232, PS/2 and USB interfaces at the same time.
+
+  Guide/How to build module.pdf
+	For more information about building a kernel module that
+	support USB TouchKit touchscreen.
+  Guide/Driver Guide.pdf
+	For more information about TouchKit driver.
+
+  TKCal/
+	The command line calibration tool for TouchKit touchscreen.
+	The user can do calibration without using TouchKit utility.
+
+  USBSrc/
+	The souce code of USB TouchKit kernel module.
+
+# ================================================================== #
