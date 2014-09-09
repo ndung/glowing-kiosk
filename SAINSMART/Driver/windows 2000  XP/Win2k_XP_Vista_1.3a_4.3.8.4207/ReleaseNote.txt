@@ -1,0 +1,19 @@
+eGalax_eMPIA Technology Inc.
+TouchKit Installation Package for Windows
+
+Copyright 2000-2007. All rights reserved.
+
+
+*********** Version 1.3, 04 June 2007 ***********
+Support Silent Mode for PS2 Interface
+
+If you want to use slient mode installation for PS2 interface, please execute the PS2setup.bat file.
+
+*********** Version 1.1, 25 April 2007 *********** 
+Support Silent Mode
+
+If you want to use slient mode installation without PS2 interface, please use command line as below:
+setup /s [Enter]
+
+*********** Version 1.0 ,20 April 2007 *********** 
+Release Installation Package for Micorsoft Windows Vista,Windows XP,Windows 2000

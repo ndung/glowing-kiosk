@@ -1,0 +1,23 @@
+Content:
+	TouchKit.dll
+	Touch32ex.dll
+	TouchTray.exe
+	TurboKit.exe
+	TouchKit.reg
+
+When the system boot,TouchTray.exe must be run
+(You can choose you own install directory, for example windows\StartUp )   
+
+You can set up the following items in Registy
+
+ButShow is DWORD
+	bit0 -> Cal 4Pt
+	bit1 -> Cal 25Pt
+	bit2 -> DrawTest
+	bit3 -> RightButton
+	bit4 -> Clear CalParam
+
+EXAMPLE:
+	if bit(n) is 1 show flowing button
+	if bit(n) is 0 Hide flowing button
+

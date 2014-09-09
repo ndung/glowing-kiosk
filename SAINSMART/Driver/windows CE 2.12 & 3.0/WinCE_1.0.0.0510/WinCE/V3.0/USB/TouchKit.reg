@@ -1,0 +1,9 @@
+REGEDIT4
+
+[HKEY_LOCAL_MACHINE\Drivers\BuiltIn\TouchKit]
+"Dll"="UsbTouch.dll"
+"Order"=dword:00000003
+"ButShow"=dword:0000003F
+"Index"=dword:00000001
+"Prefix"="TKT"
+

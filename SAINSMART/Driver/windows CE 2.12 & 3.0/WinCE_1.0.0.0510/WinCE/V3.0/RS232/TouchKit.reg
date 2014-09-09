@@ -1,0 +1,11 @@
+REGEDIT4
+
+[HKEY_LOCAL_MACHINE\Drivers\BuiltIn\TouchKit]
+"Dll"="TouchKit.dll"
+"BaudRate"=dword:00002580
+"Order"=dword:00000003
+"ButShow"=dword:0000003F
+"Index"=dword:00000001
+"COMM"="COM1:"
+"Prefix"="TKT"
+

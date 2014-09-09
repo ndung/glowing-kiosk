@@ -1,0 +1,4 @@
+1)Bug fix:
+	For some system, the eeprom access error in the 25 pts calibration function for some times.
+2)New function:
+	The beep for X86 cpu suond by io 61.	

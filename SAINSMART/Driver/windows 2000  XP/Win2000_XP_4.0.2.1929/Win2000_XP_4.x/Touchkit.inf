@@ -1,0 +1,329 @@
+; touchkit.inf
+;
+; Installation file (.inf) for the Touchkit device.
+;
+; (c) Copyright 2004 Inc. 
+;
+
+[Version]
+Signature="$Windows NT$"
+Provider=%TOUCHKIT%
+ClassGUID={4D36E96F-E325-11CE-BFC1-08002BE10318}
+Class=Mouse
+CatalogFile=touchkit.cat
+CatalogFile=touchkit64.cat
+DriverVer=09/15/2004, 4.0.0.0
+[SourceDisksNames]
+1 = %DiskId1%,,
+[DestinationDirs]
+DefaultDestDir   = 12
+;
+; Driver information
+;
+
+[Manufacturer]
+%TOUCHKIT%   = TouchkitMfg, NTamd64 ;
+
+[TouchkitMfg]
+%SERTOUCH_PNP%       = sertouch_Inst, SERENUM\EGX5800
+%SERTOUCH%     	     = sertouch_Inst, SERENUM\SERIALTOUCHKIT
+%SER232%	     = sertouch_Inst, SERENUM\EGX232
+%USB_UNIV_TOUCH%     = usb_univ_Inst, USB\VID_0EEF&PID_0001
+%USB_PROF_TOUCH%     = usb_univ_Inst, USB\VID_0EEF&PID_0002
+%PS2_TOUCH%	     = egxps2_Inst, *PNP0F13
+%EGX_BUS%	     = egxbus_Inst, *PNPFAKE	
+
+[TouchkitMfg.NTamd64]
+%SERTOUCH_PNP% 	    = sertouch_Inst.x64, SERENUM\EGX5800
+%SERTOUCH%    	    = sertouch_Inst.x64, SERENUM\SERIALTOUCHKIT
+%SER232%	    = sertouch_Inst.x64, SERENUM\EGX232
+%USB_UNIV_TOUCH%    = usb_univ_Inst.x64, USB\VID_0EEF&PID_0001
+%USB_PROF_TOUCH%    = usb_univ_Inst.x64, USB\VID_0EEF&PID_0002
+%PS2_TOUCH%	    = egxps2_Inst.x64, *PNP0F13
+
+;
+; General installation section
+;
+; ======= Serial Touchscreen Section ====================
+[sertouch_Inst]
+AddReg=sertouch_AddReg
+; Copy the driver over
+CopyFiles=SerCopyFiles_Drivers
+[sertouch_Inst.x64]
+AddReg=sertouch_AddReg
+CopyFiles=SerCopyFiles_Drivers.x64
+
+[sertouch_AddReg]
+;
+; File sections
+;
+
+[SerCopyFiles_Drivers]
+sertouch.sys
+[SerCopyFiles_Drivers.x64]
+sertouch64.sys
+;
+; Service Installation
+;
+[sertouch_Inst.Services]
+AddService = sertouch, 0x00000002 , sertouch_Service_Inst, sertouch_EventLog_Inst
+; Install mouclass.sys from msmouse.inf
+Include=msmouse.inf
+Needs=MouClass.Services
+
+[sertouch_Inst.x64.Services]
+AddService = sertouch64, 0x00000002 , sertouch_Service_Inst.x64, sertouch_EventLog_Inst.x64
+; Install mouclass.sys from msmouse.inf
+Include=msmouse.inf
+Needs=MouClass.Services
+
+[sertouch_Service_Inst]
+ServiceType    = 1                  ; SERVICE_KERNEL_DRIVER
+StartType      = 3                  ; SERVICE_DEMAND_START
+ErrorControl   = 0                  ; SERVICE_ERROR_IGNORE
+LoadOrderGroup = Pointer Port
+ServiceBinary  = %12%\sertouch.sys
+
+[sertouch_Service_Inst.x64]
+ServiceType    = 1                  ; SERVICE_KERNEL_DRIVER
+StartType      = 3                  ; SERVICE_DEMAND_START
+ErrorControl   = 0                  ; SERVICE_ERROR_IGNORE
+LoadOrderGroup = Pointer Port
+ServiceBinary  = %12%\sertouch64.sys
+[sertouch_EventLog_Inst]
+AddReg = sertouch_EventLog_AddReg
+[sertouch_EventLog_Inst.x64]
+AddReg = sertouch_EventLog_AddReg.x64
+[sertouch_EventLog_AddReg]
+HKR,,EventMessageFile,0x00020000,"%SystemRoot%\System32\IoLogMsg.dll;%SystemRoot%\System32\drivers\sertouch.sys"
+HKR,,TypesSupported,0x00010001,7
+[sertouch_EventLog_AddReg.x64]
+HKR,,EventMessageFile,0x00020000,"%SystemRoot%\System32\IoLogMsg.dll;%SystemRoot%\System32\drivers\sertouch64.sys"
+HKR,,TypesSupported,0x00010001,7
+
+;====================================================================
+;================= USB Touchscreen Section ==========================
+;====================================================================
+[usb_univ_Inst]
+AddReg=xtouch_AddReg
+; Copy the driver over
+CopyFiles=XCopyFiles_Drivers
+[usb_univ_Inst.x64]
+AddReg=xtouch_AddReg
+CopyFiles=XCopyFiles_Drivers.x64
+
+[xtouch_AddReg]
+;
+; File sections
+;
+
+[XCopyFiles_Drivers]
+xtouch.sys
+[XCopyFiles_Drivers.x64]
+xtouch64.sys
+;
+; Service Installation
+;
+[usb_univ_Inst.Services]
+AddService = xtouch, 0x00000002 , xtouch_Service_Inst, xtouch_EventLog_Inst
+; Install mouclass.sys from msmouse.inf
+Include=msmouse.inf
+Needs=MouClass.Services
+
+[usb_univ_Inst.x64.Services]
+AddService = xtouch64, 0x00000002 , xtouch_Service_Inst.x64, xtouch_EventLog_Inst.x64
+; Install mouclass.sys from msmouse.inf
+Include=msmouse.inf
+Needs=MouClass.Services
+
+[xtouch_Service_Inst]
+ServiceType    = 1                  ; SERVICE_KERNEL_DRIVER
+StartType      = 3                  ; SERVICE_DEMAND_START
+ErrorControl   = 0                  ; SERVICE_ERROR_IGNORE
+LoadOrderGroup = Pointer Port
+ServiceBinary  = %12%\xtouch.sys
+
+[xtouch_Service_Inst.x64]
+ServiceType    = 1                  ; SERVICE_KERNEL_DRIVER
+StartType      = 3                  ; SERVICE_DEMAND_START
+ErrorControl   = 0                  ; SERVICE_ERROR_IGNORE
+LoadOrderGroup = Pointer Port
+ServiceBinary  = %12%\xtouch64.sys
+[xtouch_EventLog_Inst]
+AddReg = xtouch_EventLog_AddReg
+[xtouch_EventLog_Inst.x64]
+AddReg = xtouch_EventLog_AddReg.x64
+[xtouch_EventLog_AddReg]
+HKR,,EventMessageFile,0x00020000,"%SystemRoot%\System32\IoLogMsg.dll;%SystemRoot%\System32\drivers\xtouch.sys"
+HKR,,TypesSupported,0x00010001,7
+[xtouch_EventLog_AddReg.x64]
+HKR,,EventMessageFile,0x00020000,"%SystemRoot%\System32\IoLogMsg.dll;%SystemRoot%\System32\drivers\xtouch64.sys"
+HKR,,TypesSupported,0x00010001,7
+
+;====================================================================
+; PS2 Installation Section
+;====================================================================
+
+[egxps2_Inst]
+; perform port related actions from msmouse.inf
+Include=msmouse.inf
+Needs=PS2_Inst
+AddReg=egxps2.AddReg
+CopyFiles=egxps2.Copyfiles
+
+[egxps2_Inst.x64]
+Include=msmouse.inf
+Needs=PS2_Inst
+AddReg=egxps2.AddReg.x64
+CopyFiles=egxps2.CopyFiles.x64
+
+[egxps2.AddReg]
+
+[egxps2.AddReg.x64]
+
+;
+; File sections
+;
+
+[egxps2.CopyFiles]
+egxfilter.sys
+[egxps2.CopyFiles.x64]
+egxfilter64.sys
+
+;
+; Service Installation
+;
+
+[egxps2_Inst.Services]
+; Install the port driver and mouclass from msmouse.inf
+Include=msmouse.inf
+Needs=PS2_Inst.Services
+AddService = egxfilter,, egxfilter_Service_Inst
+
+[egxps2_Inst.x64.Services]
+; Install the port driver and mouclass from msmouse.inf
+Include=msmouse.inf
+;Needs=MouClass.Services
+Needs=PS2_Inst.Services
+AddService = egxfilter64,, egxfilter_Service_Inst.x64
+
+[egxfilter_Service_Inst]
+ServiceType    = 1                  ; SERVICE_KERNEL_DRIVER
+StartType      = 3                  ; SERVICE_DEMAND_START
+ErrorControl   = 0                  ; SERVICE_ERROR_IGNORE
+LoadOrderGroup = Pointer Port
+ServiceBinary  = %12%\egxfilter.sys
+
+[egxfilter_Service_Inst.x64]
+ServiceType    = 1                  ; SERVICE_KERNEL_DRIVER
+StartType      = 3                  ; SERVICE_DEMAND_START
+ErrorControl   = 0                  ; SERVICE_ERROR_IGNORE
+LoadOrderGroup = Pointer Port
+ServiceBinary  = %12%\egxfilter64.sys
+
+
+;[egxfilter_EventLog_Inst]
+;AddReg = egxfilter_EventLog_AddReg
+
+;[egxfilter_EventLog_Inst.x64]
+;AddReg = egxfilter_EventLog_AddReg.x64
+
+
+;[egxfilter_EventLog_AddReg]
+;HKR,,EventMessageFile,0x00020000,"%SystemRoot%\System32\IoLogMsg.dll;%SystemRoot%\System32\drivers\egxfilter.sys"
+;HKR,,TypesSupported,0x00010001,7
+
+;[egxfilter_EventLog_AddReg.x64]
+;HKR,,EventMessageFile,0x00020000,"%SystemRoot%\System32\IoLogMsg.dll;%SystemRoot%\System32\drivers\egxfilter64.sys"
+;HKR,,TypesSupported,0x00010001,7
+
+
+[egxps2_Inst.HW]
+; Add the device upper filter
+Include=msmouse.inf
+Needs=PS2_Inst.HW
+AddReg = egxfilter.HW.AddReg
+
+[egxps2_Inst.x64.HW]
+Include=msmouse.inf
+Needs=PS2_Inst.HW
+AddReg = egxfilter.HW.AddReg.x64
+
+[egxfilter.HW.AddReg]
+HKR,,"UpperFilters",0x00010000,"egxfilter"
+
+[egxfilter.HW.AddReg.x64]
+HKR,,"UpperFilters",0x00010000,"egxfilter64"
+
+
+;====================================================================
+; Touch BUS Installation                                            
+;====================================================================
+[egxbus_Inst]
+CopyFiles=egxbus.CopyFiles, DllCopyFiles
+AddReg=egxbus.AddReg
+[egxbus.CopyFiles]
+egxfilter.sys,,,2
+
+[DllCopyFiles]
+xtouch32ex.dll,,,0x60
+[egxbus.Services]
+AddService = egxfilter,  ,egxbus_Service_Inst
+
+[egxbus_Service_Inst]
+DisplayName    = %PS2_TOUCH%
+ServiceType    = 1                  ; SERVICE_KERNEL_DRIVER
+StartType      = 3                  ; SERVICE_DEMAND_START
+ErrorControl   = 0                  ; SERVICE_ERROR_IGNORE
+ServiceBinary  = %12%\egxfilter.sys
+
+[egxbus.HW]
+; Add the device upper filter
+AddReg = egxbus.HW.AddReg
+; run the directives need by the port driver
+
+[egxbus.HW.AddReg]
+HKR,,"UpperFilters",0x00010008, egxfilter
+
+[egxbus.AddReg]
+HKLM,%RUNONCEKEYNAME%, AutoSearch,, \
+"rundll32 xtouch32ex.dll, SearchSerialTouch COM1COM2"
+;
+; Source file information
+;
+[SourceDisksFiles]
+; Files for disk Touchkit Touchscreen Controller. Installation Disk #1 (Mouse)
+xtouch.sys = 1,,
+xtouch64.sys = 1,,
+sertouch.sys = 1,,
+sertouch64.sys = 1,,
+egxfilter.sys = 1,,
+egxfilter64.sys=1,,
+xtouch32ex.dll = 1,,
+
+[Strings]
+
+;
+; Non-Localizable Strings
+;
+
+REG_SZ         = 0x00000000
+REG_MULTI_SZ   = 0x00010000
+REG_EXPAND_SZ  = 0x00020000
+REG_BINARY     = 0x00000001
+REG_DWORD      = 0x00010001
+SERVICEROOT    = "System\CurrentControlSet\Services"
+
+;
+; Localizable Strings
+;
+SERTOUCH_PNP 	= "Serial Touchscreen Controller(Professional)"
+SER232		= "Serial touchscreen Controller(Universal)"
+SERTOUCH     	= "Serial Touchscreen Controller"
+USB_UNIV_TOUCH  = "USB Touchscreen Controller(Universal)"
+USB_PROF_TOUCH  = "USB Touchscreen Controller(Professional)"
+PS2_TOUCH	= "Touchkit Filter"
+EGX_BUS		= "TouchScreen Enumerator"
+RUNONCEKEYNAME = "Software\Microsoft\Windows\CurrentVersion\RunOnce"
+DiskId1 = "Touchkit. Driver Installation Disk(TouchScreen)"
+TOUCHKIT = "Touchkit"

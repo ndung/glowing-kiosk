@@ -1,0 +1,17 @@
+registerity setting for USB
+<i>
+[HKEY_LOCAL_MACHINE\HARDWARE\DEVICEMAP\TOUCH]
+"DriverName"="Touchp.dll"
+"CalibrationData"="0,0 0,0 0,0 0,0"
+
+<ii>
+[HKEY_LOCAL_MACHINE\Drivers\USB\LoadClients\14371_1\0_0_0\255_255_255\USB_TOUCH_Driver]
+"DLL"="USBPort.dll"
+[HKEY_LOCAL_MACHINE\Drivers\USB\LoadClients\14371_2\0_0_0\255_255_255\USB_TOUCH_Driver]
+"DLL"="USBPort.dll"
+[HKEY_LOCAL_MACHINE\Drivers\USB\LoadClients\291_1\0_0_0\255_255_255\USB_TOUCH_Driver]
+"DLL"="USBPort.dll"
+[HKEY_LOCAL_MACHINE\Drivers\USB\LoadClients\3823_1\0_0_0\255_255_255\USB_TOUCH_Driver]
+"DLL"="USBPort.dll"
+[HKEY_LOCAL_MACHINE\Drivers\USB\LoadClients\3823_2\0_0_0\255_255_255\USB_TOUCH_Driver]
+"DLL"="USBPort.dll"
