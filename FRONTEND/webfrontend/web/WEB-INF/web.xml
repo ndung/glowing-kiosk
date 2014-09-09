@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns="http://java.sun.com/xml/ns/javaee" xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+         xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd"
+         id="WebApp_ID" version="3.0">
+    <display-name>SSK EGO</display-name>
+    <filter>
+        <display-name>Stripes Filter</display-name>
+        <filter-name>StripesFilter</filter-name>
+        <filter-class>net.sourceforge.stripes.controller.StripesFilter</filter-class>
+        <init-param>
+            <param-name>ActionResolver.Packages</param-name>
+            <param-value>com.ics.ssk.ego.web</param-value>
+        </init-param>
+        <init-param>
+            <param-name>Extension.Packages</param-name>
+            <param-value>
+                com.ics.ssk.ego.ext              
+            </param-value>
+        </init-param>
+        <init-param>
+            <param-name>LocalePicker.Locales</param-name>
+            <param-value>en,fr</param-value>
+        </init-param>
+        <init-param>
+            <param-name>Interceptor.Classes</param-name>
+            <param-value>net.sourceforge.stripes.integration.spring.SpringInterceptor</param-value>
+        </init-param>
+        <init-param>
+            <param-name>ActionBeanContext.Class</param-name>
+            <param-value>com.ics.ssk.ego.web.BaseActionBeanContext</param-value>
+        </init-param>
+        <init-param>
+            <param-name>Stripes.EncryptionKey</param-name>
+            <param-value>1234567890</param-value>
+        </init-param>
+    </filter>
+    <servlet>
+        <servlet-name>StripesDispatcher</servlet-name>
+        <servlet-class>com.ics.ssk.ego.system.StartupDispacherServlet</servlet-class>
+        <load-on-startup>1</load-on-startup>
+    </servlet>    
+    <filter-mapping>
+        <filter-name>StripesFilter</filter-name>
+        <servlet-name>StripesDispatcher</servlet-name>
+        <dispatcher>REQUEST</dispatcher>
+        <dispatcher>FORWARD</dispatcher>
+    </filter-mapping>    
+    <servlet-mapping>
+        <servlet-name>StripesDispatcher</servlet-name>
+        <url-pattern>*.html</url-pattern>
+    </servlet-mapping>
+    <filter>
+        <description>Provides login security for Web Application</description>
+        <filter-name>SecurityFilter</filter-name>
+        <filter-class>com.ics.ssk.ego.system.SecurityFilter</filter-class>
+    </filter>
+    <filter-mapping>
+        <filter-name>SecurityFilter</filter-name>
+        <url-pattern>*</url-pattern>
+        <dispatcher>REQUEST</dispatcher>
+    </filter-mapping>
+    <listener>
+        <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
+    </listener>
+    <context-param>
+        <param-name>contextConfigLocation</param-name>
+        <param-value>/WEB-INF/applicationContext-*.xml</param-value>
+    </context-param>
+    <error-page>
+        <error-code>404</error-code>
+        <location>/not_found.jsp</location>
+    </error-page>
+    <welcome-file-list>
+        <welcome-file>index.jsp</welcome-file>
+    </welcome-file-list>
+</web-app>

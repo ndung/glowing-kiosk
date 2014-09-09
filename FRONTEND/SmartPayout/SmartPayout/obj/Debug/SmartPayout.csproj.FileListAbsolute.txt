@@ -1,0 +1,16 @@
+D:\workplace\ciptasolusi\kiosk\SmartPayout\SmartPayout\bin\Debug\SmartPayout.exe.config
+D:\workplace\ciptasolusi\kiosk\SmartPayout\SmartPayout\bin\Debug\SmartPayout.exe
+D:\workplace\ciptasolusi\kiosk\SmartPayout\SmartPayout\bin\Debug\SmartPayout.pdb
+D:\workplace\ciptasolusi\kiosk\SmartPayout\SmartPayout\obj\Debug\SmartPayout.csprojResolveAssemblyReference.cache
+D:\workplace\ciptasolusi\kiosk\SmartPayout\SmartPayout\obj\Debug\SmartPayout.exe
+D:\workplace\ciptasolusi\kiosk\SmartPayout\SmartPayout\obj\Debug\SmartPayout.pdb
+D:\workplace\indo-cipta-guna\kiosk\SmartPayout\SmartPayout\bin\Debug\SmartPayout.exe.config
+D:\workplace\indo-cipta-guna\kiosk\SmartPayout\SmartPayout\obj\Debug\SmartPayout.exe
+D:\workplace\indo-cipta-guna\kiosk\SmartPayout\SmartPayout\obj\Debug\SmartPayout.pdb
+D:\workplace\indo-cipta-guna\kiosk\SmartPayout\SmartPayout\obj\Debug\SmartPayout.csprojResolveAssemblyReference.cache
+D:\workplace\indo-cipta-guna\kiosk\SmartPayout\SmartPayout\bin\Debug\SmartPayout.exe
+D:\workplace\indo-cipta-guna\kiosk\SmartPayout\SmartPayout\bin\Debug\SmartPayout.pdb
+D:\workplace\indo-cipta-guna\kiosk\SmartPayout\SmartPayout\bin\Debug\ITLlib.dll
+D:\workplace\indo-cipta-guna\kiosk\SmartPayout\SmartPayout\bin\Debug\log4net.dll
+D:\workplace\indo-cipta-guna\kiosk\SmartPayout\SmartPayout\bin\Debug\log4net.xml
+D:\workplace\indo-cipta-guna\kiosk\SmartPayout\SmartPayout\bin\Debug\MySql.Data.dll

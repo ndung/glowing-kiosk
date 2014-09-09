@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN"
+    "http://www.springframework.org/dtd/spring-beans.dtd">
+
+<beans>
+   
+    <bean id="advertisementManager" class="com.ics.ssk.ego.manager.impl.AdvertisementManagerImpl">
+        <property name="advertisementDao" ref="advertisementDao" />
+    </bean>
+
+    <bean id="baseManager" class="com.ics.ssk.ego.manager.impl.BaseManagerImpl">
+        <property name="baseDaoHibernate" ref="baseDaoHibernate" />
+    </bean>    
+    
+    <bean id="responseCodeManager" class="com.ics.ssk.ego.manager.impl.ResponseCodeManagerImpl" init-method="refreshRespCodeMap">
+        <property name="responseCodeDao" ref="responseCodeDao" />
+    </bean>    
+    
+    <bean id="parameterManager" class="com.ics.ssk.ego.manager.impl.ParameterManagerImpl">
+        <property name="parameterDao" ref="parameterDao" />
+    </bean>        
+    
+    <bean id="counterFactoryManager" class="com.ics.ssk.ego.manager.impl.CounterFactoryManagerImpl">
+        <property name="counterFactoryDao" ref="counterFactoryDao" />
+    </bean>    
+    
+    <bean id="egoManager" class="com.ics.ssk.ego.manager.impl.EgoManagerImpl">
+        <property name="egoDao" ref="egoDao" />
+    </bean>
+    
+    <bean id="sessionManager" class="com.ics.ssk.ego.manager.impl.SessionManagerImpl">        
+    </bean>
+    
+    <bean id="smartPayoutController" class="com.ics.ssk.ego.device.controller.SmartPayoutController">       
+        <!--<property name="server" ref="socketConnectionServer" />-->
+        <property name="server" ref="smartPayoutProvider" />
+        <property name="deviceDao" ref="deviceDao" />
+        <property name="parameterDao" ref="parameterDao" />
+    </bean>
+    
+    <bean id="printerController" class="com.ics.ssk.ego.device.controller.PrinterController">       
+        <!--<property name="server" ref="socketConnectionServer" />-->
+        <!--<property name="deviceDao" ref="deviceDao" />-->
+        <property name="server" ref="socketServerProvider" />
+        <property name="parameterDao" ref="parameterDao" />
+    </bean>
+    
+    <bean id="sessionTable" class="edu.emory.mathcs.backport.java.util.concurrent.ConcurrentHashMap"/>
+    <bean id="messageTable" class="edu.emory.mathcs.backport.java.util.concurrent.ConcurrentHashMap"/>	 
+    <bean id="deviceMessageMap" class="edu.emory.mathcs.backport.java.util.concurrent.ConcurrentHashMap"/>	 
+    
+    <!--
+    <bean id="socketConnectionServer" class="com.ics.ssk.ego.device.SocketConnectionServer" init-method="start" destroy-method="stop">
+        <property name="parameterDao" ref="parameterDao" />
+        <property name="handlerFactory" ref="socketHandlerFactory" />        
+        <property name="deviceMessageMap" ref="deviceMessageMap" />        
+    </bean>
+    
+    <bean id="socketHandlerFactory" class="com.ics.ssk.ego.device.SocketHandlerFactory" >
+        <property name="deviceMessageMap" ref="deviceMessageMap" />        
+    </bean>-->
+    
+    <bean id="socketClientProvider" class="com.ics.ssk.ego.iso8583.SocketClientProvider" init-method="start">
+       <property name="parameterDao" ref="parameterDao" />       
+    </bean>
+    
+    <bean id="cashCancelExecutor" class="java.util.concurrent.Executors" factory-method="newFixedThreadPool" >
+        <constructor-arg value="240"/>
+    </bean>
+    
+    <bean id="socketHandlerExecutor" class="java.util.concurrent.Executors" factory-method="newFixedThreadPool" >
+        <constructor-arg value="240"/>
+    </bean>
+    
+    <bean id="socketServerProvider" class="com.ics.ssk.ego.device.SocketServerProvider">
+        <property name="parameterDao" ref="parameterDao" />
+        <property name="executor" ref="socketHandlerExecutor" />        
+        <property name="deviceMessageMap" ref="deviceMessageMap" />        
+    </bean>
+    
+    <bean id="smartPayoutProvider" class="com.ics.ssk.ego.device.SocketClientProvider" init-method="start">
+        <property name="parameterDao" ref="parameterDao" />
+        <property name="executor" ref="socketHandlerExecutor" />        
+        <property name="deviceMessageMap" ref="deviceMessageMap" />       
+    </bean> 
+    
+    <bean id="logBackupJob" class="com.ics.ssk.ego.scheduler.LogBackupJob">
+        <property name="parameterManager" ref="parameterManager" />
+        <property name="deviceDao" ref="deviceDao" />
+    </bean>
+    
+    <bean id="midNightMethodInvokingJobDetail"  class="org.springframework.scheduling.quartz.MethodInvokingJobDetailFactoryBean">
+        <property name="targetObject" ref="logBackupJob" />
+        <property name="targetMethod" value="execute" />
+    </bean>
+
+    <bean id="midNightCronTrigger" class="org.springframework.scheduling.quartz.CronTriggerBean">
+        <property name="jobDetail" ref="midNightMethodInvokingJobDetail" />
+        <property name="cronExpression" value="0 0 0 * * ?"/>
+    </bean>
+    
+    <bean class="org.springframework.scheduling.quartz.SchedulerFactoryBean">
+        <property name="triggers">
+            <list>
+                <ref local="midNightCronTrigger" />                
+            </list>
+        </property>
+    </bean>
+</beans>

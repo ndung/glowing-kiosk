@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN"
+    "http://www.springframework.org/dtd/spring-beans.dtd">
+
+<beans>
+
+    <bean id="advertisementDao" class="com.ics.ssk.ego.dao.impl.AdvertisementDaoImpl">
+        <property name="baseDaoHibernate" ref="baseDaoHibernate"/>
+    </bean>
+
+    <bean id="baseDaoHibernate" class="com.ics.ssk.ego.dao.impl.BaseDaoHibernateImpl">
+        <property name="sessionFactory" ref="sessionFactory"/>
+    </bean>
+    
+    <bean id="responseCodeDao" class="com.ics.ssk.ego.dao.impl.ResponseCodeDaoImpl">
+        <property name="baseDaoHibernate" ref="baseDaoHibernate" />
+    </bean>    
+    
+    <bean id="parameterDao" class="com.ics.ssk.ego.dao.impl.ParameterDaoImpl">
+        <property name="baseDaoHibernate" ref="baseDaoHibernate"/>
+    </bean>
+        
+    <bean id="counterFactoryDao" class="com.ics.ssk.ego.dao.impl.CounterFactoryDaoImpl">
+        <property name="baseDaoHibernate" ref="baseDaoHibernate"/>
+    </bean>    
+        
+    <bean id="egoDao" class="com.ics.ssk.ego.dao.impl.EgoDaoImpl">
+        <property name="baseDaoHibernate" ref="baseDaoHibernate"/>
+    </bean>
+    
+    <bean id="deviceDao" class="com.ics.ssk.ego.dao.impl.DeviceDaoImpl">
+        <property name="jdbcTemplate" ref="jdbcTemplate" />
+    </bean>
+</beans>

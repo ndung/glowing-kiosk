@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name="com.ics.ssk.ego.model.KAIStationGroup" table="kai_station_group">
+        <id name="id" type="string">
+            <column name="ID" length="10" />
+            <generator class="assigned" />
+        </id>
+        <property name="description" type="string">
+            <column name="DESCRIPTION" length="40" not-null="true" />
+        </property>
+        <set name="kaiStations" inverse="true" lazy="false">
+            <key>
+                <column name="ID_GROUP" length="10" not-null="true" />
+            </key>
+            <one-to-many class="com.ics.ssk.ego.model.KAIStation" />
+        </set>
+    </class>
+</hibernate-mapping>

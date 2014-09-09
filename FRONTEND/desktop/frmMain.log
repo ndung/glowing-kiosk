@@ -1,0 +1,16 @@
+Line 92: Class MSCommLib.MSComm of control MSComm1 was not a loaded control class.
+Line 116: Class MSWinsockLib.Winsock of control Winsock1 was not a loaded control class.
+Line 95: The property name _ExtentX in MSComm1 is invalid.
+Line 96: The property name _ExtentY in MSComm1 is invalid.
+Line 97: The property name _Version in MSComm1 is invalid.
+Line 98: The property name DTREnable in MSComm1 is invalid.
+Line 119: The property name _ExtentX in Winsock1 is invalid.
+Line 120: The property name _ExtentY in Winsock1 is invalid.
+Line 121: The property name _Version in Winsock1 is invalid.
+Line 95: The property name _ExtentX in MSComm1 is invalid.
+Line 96: The property name _ExtentY in MSComm1 is invalid.
+Line 97: The property name _Version in MSComm1 is invalid.
+Line 98: The property name DTREnable in MSComm1 is invalid.
+Line 119: The property name _ExtentX in Winsock1 is invalid.
+Line 120: The property name _ExtentY in Winsock1 is invalid.
+Line 121: The property name _Version in Winsock1 is invalid.

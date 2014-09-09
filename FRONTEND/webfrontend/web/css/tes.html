@@ -1,0 +1,34 @@
+
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>A CSS3 Rollover for Internet Explorer 6 thru 8</title>
+	
+	<style>
+	 body {
+		background-color:#f43a3a;
+	 }
+		
+	    a.links {
+			padding: 5px 10px;
+			color:#fff;
+			border: 1px solid #ccc;
+			-webkit-border-radius: 14px;
+			-moz-border-radius: 14px;
+			-o-border-radius: 14px;
+			border-radius: 14px;
+			behavior: url(pie/PIE.htc);
+			}
+			
+	    a.links:hover {
+			background: rgba(0, 0, 0, 0.4);
+			-pie-background: rgba(0, 0, 0, 0.4);
+			}
+	</style>
+
+</head>
+<body>
+	<a href="#" class="links">Test Link</a>
+</body>
+</html>

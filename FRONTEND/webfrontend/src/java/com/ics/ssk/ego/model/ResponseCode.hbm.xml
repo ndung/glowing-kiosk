@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name="com.ics.ssk.ego.model.ResponseCode" table="resp_code">
+        <id name="responseCode" type="string">
+            <column name="response_code" />
+            <generator class="assigned" />
+        </id>
+        <property name="description" type="string">
+            <column name="description" />
+        </property>
+        <property name="category" type="string">
+            <column name="status" length="1" />
+        </property>
+        <property name="retryStatus" type="java.lang.Integer">
+            <column name="retry_status" />
+        </property>
+        <property name="status" type="java.lang.Integer">
+            <column name="active_status" />
+        </property>
+    </class>
+</hibernate-mapping>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name="com.ics.ssk.ego.model.EgoProduct" table="ego_product">
+        <id name="id" type="string">
+            <column name="id_product"/>
+            <generator class="assigned"/>
+        </id>
+        <property name="billerCode" type="string">
+            <column length="3" name="biller_code"/>
+        </property>
+        <property name="productCode" type="string">
+            <column length="4" name="product_code"/>
+        </property>
+        <property name="industryCode" type="string">
+            <column length="2" name="industry_code"/>
+        </property>
+        <property name="type" type="int">
+            <column length="1" name="type"/>
+        </property>        
+        <property name="amount" type="double">
+            <column length="12" name="amount"/>
+        </property>
+        <property name="billerDescription" type="string">
+            <column length="255" name="biller_desc"/>
+        </property>
+        <property name="productDescription" type="string">
+            <column length="255" name="product_desc"/>
+        </property>
+    </class>
+</hibernate-mapping>

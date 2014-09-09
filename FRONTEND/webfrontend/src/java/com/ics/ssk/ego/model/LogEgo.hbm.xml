@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name="com.ics.ssk.ego.model.LogEgo" table="log_ego">
+        <id name="id" type="java.lang.Integer">
+            <column name="id"/>
+            <generator class="identity"/>
+        </id>        
+        <property name="stan" type="string">
+            <column length="6" name="stan" not-null="true"/>
+        </property>
+        <property name="date" type="timestamp">
+            <column length="19" name="date" not-null="true"/>
+        </property>
+        <property name="product" type="string">
+            <column length="10" name="product" not-null="true"/>
+        </property>
+        <property name="payeeId" type="string">
+            <column length="20" name="payee_id" not-null="true"/>
+        </property>
+        <property name="response" type="string">
+            <column length="65535" name="response" not-null="true"/>
+        </property>
+        <property name="amount" type="double">
+            <column name="amount" not-null="true" precision="22" scale="0"/>
+        </property>
+        <property name="price" type="double">
+            <column name="price" not-null="true" precision="22" scale="0"/>
+        </property>
+        <property name="voucher" type="string">
+            <column length="40" name="voucher"/>
+        </property>
+        <property name="tagihan" type="int">
+            <column name="tagihan" not-null="true"/>
+        </property>
+        <property name="bulantahun" type="string">
+            <column length="30" name="bulantahun" not-null="true"/>
+        </property>
+        <property name="iso" type="string">
+            <column length="65535" name="iso" not-null="true"/>
+        </property>    
+        <property name="refNumber" type="string">
+            <column name="ref_number" />
+        </property>
+        <property name="contentStruk" type="string">
+            <column name="content_struk" />
+        </property>    
+    </class>
+</hibernate-mapping>

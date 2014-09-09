@@ -1,0 +1,6 @@
+frmMain = 130, 71, 721, 519, Z, 22, 29, 613, 477, C
+SmartPayout = 10, 30, 601, 478, 
+CardDispenser = 66, 87, 657, 535, 
+ContactCardReader = 88, 116, 679, 564, 
+Utilities = 242, 242, 1139, 774, 
+Printer = 22, 22, 919, 554, 
