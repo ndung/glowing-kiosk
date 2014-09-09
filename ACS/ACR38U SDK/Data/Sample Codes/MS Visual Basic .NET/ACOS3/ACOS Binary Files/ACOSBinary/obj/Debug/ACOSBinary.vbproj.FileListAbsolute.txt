@@ -1,0 +1,9 @@
+D:\installer\ACR38U SDK\Data\Sample Codes\MS Visual Basic .NET\ACOS3\ACOS Binary Files\ACOSBinary\bin\Debug\ACOSBinary.exe
+D:\installer\ACR38U SDK\Data\Sample Codes\MS Visual Basic .NET\ACOS3\ACOS Binary Files\ACOSBinary\bin\Debug\ACOSBinary.pdb
+D:\installer\ACR38U SDK\Data\Sample Codes\MS Visual Basic .NET\ACOS3\ACOS Binary Files\ACOSBinary\bin\Debug\ACOSBinary.xml
+D:\installer\ACR38U SDK\Data\Sample Codes\MS Visual Basic .NET\ACOS3\ACOS Binary Files\ACOSBinary\obj\Debug\ACOSBinary.MainACOSBin.resources
+D:\installer\ACR38U SDK\Data\Sample Codes\MS Visual Basic .NET\ACOS3\ACOS Binary Files\ACOSBinary\obj\Debug\ACOSBinary.Resources.resources
+D:\installer\ACR38U SDK\Data\Sample Codes\MS Visual Basic .NET\ACOS3\ACOS Binary Files\ACOSBinary\obj\Debug\ACOSBinary.vbproj.GenerateResource.Cache
+D:\installer\ACR38U SDK\Data\Sample Codes\MS Visual Basic .NET\ACOS3\ACOS Binary Files\ACOSBinary\obj\Debug\ACOSBinary.exe
+D:\installer\ACR38U SDK\Data\Sample Codes\MS Visual Basic .NET\ACOS3\ACOS Binary Files\ACOSBinary\obj\Debug\ACOSBinary.xml
+D:\installer\ACR38U SDK\Data\Sample Codes\MS Visual Basic .NET\ACOS3\ACOS Binary Files\ACOSBinary\obj\Debug\ACOSBinary.pdb

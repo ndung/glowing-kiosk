@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="ACOSCreateFiles">
+</Property><Property Name="Solution File" Value="K:\SDK Components\ACR100C SDK 1.0\Sample Codes\MS Visual Basic .NET 2005\ACOS3\ACOS3 CreateFiles\ACOSCreateFiles.sln">
+</Property><Property Name="Date" Value="Wednesday, April 23, 2008">
+</Property><Property Name="Time" Value="15:45 PM">
+</Property></Properties><Event ErrorLevel="0" Project="ACOSCreateFiles" Source="ACOSCreateFiles.vbproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="ACOSCreateFiles" Source="ACOSCreateFiles.vbproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="ACOSCreateFiles.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="ACOSCreateFiles.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="ACOSCreateFiles" Source="ACOSCreateFiles.vbproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

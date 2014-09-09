@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="Get ATR">
+</Property><Property Name="Solution File" Value="G:\ACR100C to H\Sample Code\MS Visual Basic .NET\ACOS3\Configure ATR\Get ATR.sln">
+</Property><Property Name="User Options File" Value="G:\ACR100C to H\Sample Code\MS Visual Basic .NET\ACOS3\Configure ATR\Get ATR.suo">
+</Property><Property Name="Date" Value="Tuesday, April 22, 2008">
+</Property><Property Name="Time" Value="17:19 PM">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="Get ATR.sln" Description="File successfully backed up as G:\ACR100C to H\Sample Code\MS Visual Basic .NET\ACOS3\Configure ATR\Backup\Get ATR.sln">
+</Event><Event ErrorLevel="0" Project="" Source="Get ATR.suo" Description="File successfully backed up as G:\ACR100C to H\Sample Code\MS Visual Basic .NET\ACOS3\Configure ATR\Backup\Get ATR.suo">
+</Event><Event ErrorLevel="0" Project="Configure ATR" Source="Configure ATR.vbproj" Description="Project file successfully backed up as G:\ACR100C to H\Sample Code\MS Visual Basic .NET\ACOS3\Configure ATR\Backup\Configure ATR.vbproj">
+</Event><Event ErrorLevel="0" Project="Configure ATR" Source="Configure ATR.vbproj.user" Description="Project user file successfully backed up as G:\ACR100C to H\Sample Code\MS Visual Basic .NET\ACOS3\Configure ATR\Backup\Configure ATR.vbproj.user">
+</Event><Event ErrorLevel="0" Project="Configure ATR" Source="AssemblyInfo.vb" Description="File successfully backed up as G:\ACR100C to H\Sample Code\MS Visual Basic .NET\ACOS3\Configure ATR\Backup\AssemblyInfo.vb">
+</Event><Event ErrorLevel="0" Project="Configure ATR" Source="Form1.vb" Description="File successfully backed up as G:\ACR100C to H\Sample Code\MS Visual Basic .NET\ACOS3\Configure ATR\Backup\Form1.vb">
+</Event><Event ErrorLevel="0" Project="Configure ATR" Source="ModWinscard.vb" Description="File successfully backed up as G:\ACR100C to H\Sample Code\MS Visual Basic .NET\ACOS3\Configure ATR\Backup\ModWinscard.vb">
+</Event><Event ErrorLevel="0" Project="Configure ATR" Source="Form1.resx" Description="File successfully backed up as G:\ACR100C to H\Sample Code\MS Visual Basic .NET\ACOS3\Configure ATR\Backup\Form1.resx">
+</Event><Event ErrorLevel="0" Project="Configure ATR" Source="Configure ATR.vbproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="Configure ATR" Source="Configure ATR.vbproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="Get ATR.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="Get ATR.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Configure ATR" Source="Configure ATR.vbproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

@@ -1,0 +1,6 @@
+D:\installer\ACR38U SDK\Data\Sample Codes\MS Visual C#\Polling\bin\Debug\Polling.exe
+D:\installer\ACR38U SDK\Data\Sample Codes\MS Visual C#\Polling\bin\Debug\Polling.pdb
+D:\installer\ACR38U SDK\Data\Sample Codes\MS Visual C#\Polling\obj\Debug\Polling.Form1.resources
+D:\installer\ACR38U SDK\Data\Sample Codes\MS Visual C#\Polling\obj\Debug\Polling.csproj.GenerateResource.Cache
+D:\installer\ACR38U SDK\Data\Sample Codes\MS Visual C#\Polling\obj\Debug\Polling.exe
+D:\installer\ACR38U SDK\Data\Sample Codes\MS Visual C#\Polling\obj\Debug\Polling.pdb

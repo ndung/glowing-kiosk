@@ -1,0 +1,49 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: ACOS Sample Codes - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x804 /fo"Debug/ACOS Sample Codes.res" /d "_DEBUG" /d "_AFXDLL" "K:\SDK Components\ACR128 Components\Sample Codes\MS Visual C++ 6.0\ACOS3\ACOS3 Mutual Authentication\ACOS Sample Codes.rc"" 
+Creating temporary file "C:\DOCUME~1\yhene\LOCALS~1\Temp\RSP1A.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/ACOS Sample Codes.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"K:\SDK Components\ACR128 Components\Sample Codes\MS Visual C++ 6.0\ACOS3\ACOS3 Mutual Authentication\ACOS Sample Codes.cpp"
+"K:\SDK Components\ACR128 Components\Sample Codes\MS Visual C++ 6.0\ACOS3\ACOS3 Mutual Authentication\ACOS Sample CodesDlg.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\yhene\LOCALS~1\Temp\RSP1A.tmp" 
+Creating temporary file "C:\DOCUME~1\yhene\LOCALS~1\Temp\RSP1B.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/ACOS Sample Codes.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"K:\SDK Components\ACR128 Components\Sample Codes\MS Visual C++ 6.0\ACOS3\ACOS3 Mutual Authentication\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\yhene\LOCALS~1\Temp\RSP1B.tmp" 
+Creating temporary file "C:\DOCUME~1\yhene\LOCALS~1\Temp\RSP1C.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/ACOS Sample Codes.pdb" /debug /machine:I386 /out:"Debug/ACOS Sample Codes.exe" /pdbtype:sept 
+".\Debug\ACOS Sample Codes.obj"
+".\Debug\ACOS Sample CodesDlg.obj"
+".\Debug\StdAfx.obj"
+".\Debug\ACOS Sample Codes.res"
+".\WINSCARD.LIB"
+]
+Creating command line "link.exe @C:\DOCUME~1\yhene\LOCALS~1\Temp\RSP1C.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+ACOS Sample Codes.cpp
+ACOS Sample CodesDlg.cpp
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+ACOS Sample Codes.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

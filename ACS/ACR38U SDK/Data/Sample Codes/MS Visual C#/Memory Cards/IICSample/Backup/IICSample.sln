@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IICSample", "IICSample.csproj", "{DD597498-D007-4624-AB25-6E802A7DE5CD}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{DD597498-D007-4624-AB25-6E802A7DE5CD}.Debug.ActiveCfg = Debug|.NET
+		{DD597498-D007-4624-AB25-6E802A7DE5CD}.Debug.Build.0 = Debug|.NET
+		{DD597498-D007-4624-AB25-6E802A7DE5CD}.Release.ActiveCfg = Release|.NET
+		{DD597498-D007-4624-AB25-6E802A7DE5CD}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

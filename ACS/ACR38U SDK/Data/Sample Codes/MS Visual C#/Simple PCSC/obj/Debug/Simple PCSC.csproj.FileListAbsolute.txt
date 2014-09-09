@@ -1,0 +1,7 @@
+D:\installer\ACR38U SDK\Data\Sample Codes\MS Visual C#\Simple PCSC\bin\Debug\Simple PCSC.exe
+D:\installer\ACR38U SDK\Data\Sample Codes\MS Visual C#\Simple PCSC\bin\Debug\Simple PCSC.pdb
+D:\installer\ACR38U SDK\Data\Sample Codes\MS Visual C#\Simple PCSC\obj\Debug\Simple PCSC.csprojResolveAssemblyReference.cache
+D:\installer\ACR38U SDK\Data\Sample Codes\MS Visual C#\Simple PCSC\obj\Debug\SimplePCSC.MainForm.resources
+D:\installer\ACR38U SDK\Data\Sample Codes\MS Visual C#\Simple PCSC\obj\Debug\Simple PCSC.csproj.GenerateResource.Cache
+D:\installer\ACR38U SDK\Data\Sample Codes\MS Visual C#\Simple PCSC\obj\Debug\Simple PCSC.exe
+D:\installer\ACR38U SDK\Data\Sample Codes\MS Visual C#\Simple PCSC\obj\Debug\Simple PCSC.pdb

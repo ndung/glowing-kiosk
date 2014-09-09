@@ -1,0 +1,6 @@
+D:\installer\ACR38U SDK\Data\Sample Codes\MS Visual C#\ACOS3\ACOS3 ReadWrite\bin\Debug\ACOSReadWrite.exe
+D:\installer\ACR38U SDK\Data\Sample Codes\MS Visual C#\ACOS3\ACOS3 ReadWrite\bin\Debug\ACOSReadWrite.pdb
+D:\installer\ACR38U SDK\Data\Sample Codes\MS Visual C#\ACOS3\ACOS3 ReadWrite\obj\Debug\ACOSReadWrite.Form1.resources
+D:\installer\ACR38U SDK\Data\Sample Codes\MS Visual C#\ACOS3\ACOS3 ReadWrite\obj\Debug\ACOSReadWrite.csproj.GenerateResource.Cache
+D:\installer\ACR38U SDK\Data\Sample Codes\MS Visual C#\ACOS3\ACOS3 ReadWrite\obj\Debug\ACOSReadWrite.exe
+D:\installer\ACR38U SDK\Data\Sample Codes\MS Visual C#\ACOS3\ACOS3 ReadWrite\obj\Debug\ACOSReadWrite.pdb

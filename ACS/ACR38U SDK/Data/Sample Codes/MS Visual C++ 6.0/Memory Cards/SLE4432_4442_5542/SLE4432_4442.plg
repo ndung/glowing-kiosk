@@ -1,0 +1,45 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: SLE4432_4442 - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\Wazer\LOCALS~1\Temp\RSP118.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/SLE4432_4442.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\Programs\ACR100\Sample Codes\ACR100F\MS Visual C++ 6.0\Memory Cards\SLE4432_4442_5542\SLE4432_4442Dlg.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Wazer\LOCALS~1\Temp\RSP118.tmp" 
+Creating temporary file "C:\DOCUME~1\Wazer\LOCALS~1\Temp\RSP119.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/SLE4432_4442.pdb" /debug /machine:I386 /out:"Debug/SLE4432_4442.exe" /pdbtype:sept 
+".\Debug\SLE4432_4442.obj"
+".\Debug\SLE4432_4442Dlg.obj"
+".\Debug\StdAfx.obj"
+".\Debug\SLE4432_4442.res"
+".\Winscard.lib"
+]
+Creating command line "link.exe @C:\DOCUME~1\Wazer\LOCALS~1\Temp\RSP119.tmp"
+<h3>Output Window</h3>
+Compiling...
+SLE4432_4442Dlg.cpp
+E:\Programs\ACR100\Sample Codes\ACR100F\MS Visual C++ 6.0\Memory Cards\SLE4432_4442_5542\SLE4432_4442Dlg.cpp(398) : warning C4018: '<' : signed/unsigned mismatch
+E:\Programs\ACR100\Sample Codes\ACR100F\MS Visual C++ 6.0\Memory Cards\SLE4432_4442_5542\SLE4432_4442Dlg.cpp(409) : warning C4018: '<' : signed/unsigned mismatch
+E:\Programs\ACR100\Sample Codes\ACR100F\MS Visual C++ 6.0\Memory Cards\SLE4432_4442_5542\SLE4432_4442Dlg.cpp(421) : warning C4018: '<' : signed/unsigned mismatch
+E:\Programs\ACR100\Sample Codes\ACR100F\MS Visual C++ 6.0\Memory Cards\SLE4432_4442_5542\SLE4432_4442Dlg.cpp(694) : warning C4018: '<' : signed/unsigned mismatch
+E:\Programs\ACR100\Sample Codes\ACR100F\MS Visual C++ 6.0\Memory Cards\SLE4432_4442_5542\SLE4432_4442Dlg.cpp(842) : warning C4018: '<' : signed/unsigned mismatch
+E:\Programs\ACR100\Sample Codes\ACR100F\MS Visual C++ 6.0\Memory Cards\SLE4432_4442_5542\SLE4432_4442Dlg.cpp(886) : warning C4018: '<' : signed/unsigned mismatch
+E:\Programs\ACR100\Sample Codes\ACR100F\MS Visual C++ 6.0\Memory Cards\SLE4432_4442_5542\SLE4432_4442Dlg.cpp(927) : warning C4018: '<' : signed/unsigned mismatch
+E:\Programs\ACR100\Sample Codes\ACR100F\MS Visual C++ 6.0\Memory Cards\SLE4432_4442_5542\SLE4432_4442Dlg.cpp(960) : warning C4018: '<' : signed/unsigned mismatch
+E:\Programs\ACR100\Sample Codes\ACR100F\MS Visual C++ 6.0\Memory Cards\SLE4432_4442_5542\SLE4432_4442Dlg.cpp(1002) : warning C4018: '<' : signed/unsigned mismatch
+Linking...
+
+
+
+<h3>Results</h3>
+SLE4432_4442.exe - 0 error(s), 9 warning(s)
+</pre>
+</body>
+</html>

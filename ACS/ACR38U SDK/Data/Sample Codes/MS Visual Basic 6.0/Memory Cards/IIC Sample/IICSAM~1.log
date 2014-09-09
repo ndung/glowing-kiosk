@@ -1,0 +1,5 @@
+Line 183: Class RichTextLib.RichTextBox of control mMsg was not a loaded control class.
+Line 189: The property name _ExtentX in mMsg is invalid.
+Line 190: The property name _ExtentY in mMsg is invalid.
+Line 191: The property name _Version in mMsg is invalid.
+Line 192: The property name TextRTF in mMsg is invalid.

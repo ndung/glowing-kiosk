@@ -1,0 +1,34 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: IIC - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Debug/IIC.res" /d "_DEBUG" /d "_AFXDLL" "E:\Programs\ACR100\Sample Codes\ACR100F\MS Visual C++ 6.0\Memory Cards\IIC Sample\IIC.rc"" 
+Creating temporary file "C:\DOCUME~1\Wazer\LOCALS~1\Temp\RSP68.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/IIC.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\Programs\ACR100\Sample Codes\ACR100F\MS Visual C++ 6.0\Memory Cards\IIC Sample\IICDlg.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Wazer\LOCALS~1\Temp\RSP68.tmp" 
+Creating command line "link.exe /nologo /subsystem:windows /incremental:yes /pdb:"Debug/IIC.pdb" /debug /machine:I386 /out:"Debug/IIC.exe" /pdbtype:sept  ".\Debug\IIC.obj" ".\Debug\IICDlg.obj" ".\Debug\StdAfx.obj" ".\Debug\IIC.res" ".\Winscard.lib" "
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+IICDlg.cpp
+E:\Programs\ACR100\Sample Codes\ACR100F\MS Visual C++ 6.0\Memory Cards\IIC Sample\IICDlg.cpp(400) : warning C4018: '<' : signed/unsigned mismatch
+E:\Programs\ACR100\Sample Codes\ACR100F\MS Visual C++ 6.0\Memory Cards\IIC Sample\IICDlg.cpp(411) : warning C4018: '<' : signed/unsigned mismatch
+E:\Programs\ACR100\Sample Codes\ACR100F\MS Visual C++ 6.0\Memory Cards\IIC Sample\IICDlg.cpp(423) : warning C4018: '<' : signed/unsigned mismatch
+E:\Programs\ACR100\Sample Codes\ACR100F\MS Visual C++ 6.0\Memory Cards\IIC Sample\IICDlg.cpp(817) : warning C4018: '<' : signed/unsigned mismatch
+E:\Programs\ACR100\Sample Codes\ACR100F\MS Visual C++ 6.0\Memory Cards\IIC Sample\IICDlg.cpp(871) : warning C4018: '<' : signed/unsigned mismatch
+Linking...
+
+
+
+<h3>Results</h3>
+IIC.exe - 0 error(s), 5 warning(s)
+</pre>
+</body>
+</html>

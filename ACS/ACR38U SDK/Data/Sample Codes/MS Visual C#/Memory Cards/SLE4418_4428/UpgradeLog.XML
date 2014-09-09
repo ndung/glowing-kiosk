@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="SLE4418_4428">
+</Property><Property Name="Solution File" Value="E:\Memory Card\MS Visual C#\Memory Cards\SLE4418_4428\SLE4418_4428.sln">
+</Property><Property Name="User Options File" Value="E:\Memory Card\MS Visual C#\Memory Cards\SLE4418_4428\SLE4418_4428.suo">
+</Property><Property Name="Date" Value="Tuesday, September 02, 2008">
+</Property><Property Name="Time" Value="12:20 PM">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="SLE4418_4428.sln" Description="File successfully backed up as E:\Memory Card\MS Visual C#\Memory Cards\SLE4418_4428\Backup\SLE4418_4428.sln">
+</Event><Event ErrorLevel="0" Project="" Source="SLE4418_4428.suo" Description="File successfully backed up as E:\Memory Card\MS Visual C#\Memory Cards\SLE4418_4428\Backup\SLE4418_4428.suo">
+</Event><Event ErrorLevel="0" Project="SLE4418_4428" Source="SLE4418_4428.csproj" Description="Project file successfully backed up as E:\Memory Card\MS Visual C#\Memory Cards\SLE4418_4428\Backup\SLE4418_4428.csproj">
+</Event><Event ErrorLevel="0" Project="SLE4418_4428" Source="SLE4418_4428.csproj.user" Description="Project user file successfully backed up as E:\Memory Card\MS Visual C#\Memory Cards\SLE4418_4428\Backup\SLE4418_4428.csproj.user">
+</Event><Event ErrorLevel="0" Project="SLE4418_4428" Source="AssemblyInfo.cs" Description="File successfully backed up as E:\Memory Card\MS Visual C#\Memory Cards\SLE4418_4428\Backup\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="SLE4418_4428" Source="ModWinsCard.cs" Description="File successfully backed up as E:\Memory Card\MS Visual C#\Memory Cards\SLE4418_4428\Backup\ModWinsCard.cs">
+</Event><Event ErrorLevel="0" Project="SLE4418_4428" Source="SLE418_4428Main.cs" Description="File successfully backed up as E:\Memory Card\MS Visual C#\Memory Cards\SLE4418_4428\Backup\SLE418_4428Main.cs">
+</Event><Event ErrorLevel="0" Project="SLE4418_4428" Source="App.ico" Description="File successfully backed up as E:\Memory Card\MS Visual C#\Memory Cards\SLE4418_4428\Backup\App.ico">
+</Event><Event ErrorLevel="0" Project="SLE4418_4428" Source="SLE418_4428Main.resx" Description="File successfully backed up as E:\Memory Card\MS Visual C#\Memory Cards\SLE4418_4428\Backup\SLE418_4428Main.resx">
+</Event><Event ErrorLevel="0" Project="SLE4418_4428" Source="SLE4418_4428.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="SLE4418_4428" Source="SLE4418_4428.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="SLE4418_4428.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="SLE4418_4428.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="SLE4418_4428" Source="SLE4418_4428.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

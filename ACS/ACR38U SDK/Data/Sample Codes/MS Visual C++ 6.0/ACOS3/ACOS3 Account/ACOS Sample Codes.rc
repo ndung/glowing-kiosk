@@ -1,0 +1,237 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// Chinese (P.R.C.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\ACOS Sample Codes.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\ACOS Sample Codes.ico"
+#endif    // Chinese (P.R.C.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_ICON2               ICON    DISCARDABLE     "res\\ACS_Small.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ACOSSAMPLECODES_DIALOG DIALOGEX 0, 0, 395, 304
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "Using ACOS3 for Mutual Authentication"
+FONT 9, "Arial", 0, 0, 0x1
+BEGIN
+    COMBOBOX        IDC_COMBO3,63,7,89,64,CBS_DROPDOWN | CBS_SORT | 
+                    WS_VSCROLL | WS_TABSTOP
+    LISTBOX         IDC_LIST1,158,7,230,271,LBS_NOINTEGRALHEIGHT | 
+                    WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "Connect",IDC_BUTTON1,94,43,57,15
+    PUSHBUTTON      "Format Card",IDC_BUTTON2,95,62,57,15,WS_DISABLED
+    GROUPBOX        "Security Option",IDC_STATIC,15,30,73,59
+    LTEXT           "Select Reader :",IDC_STATIC,7,13,52,12
+    PUSHBUTTON      "Credit",IDC_BUTTON4,23,249,57,15,WS_DISABLED
+    CONTROL         "DES",IDC_RADIO3,"Button",BS_AUTORADIOBUTTON | 
+                    WS_DISABLED | WS_GROUP,25,46,41,14
+    EDITTEXT        IDC_EDIT1,60,110,89,13,ES_AUTOHSCROLL | WS_DISABLED
+    LTEXT           "Credit",IDC_STATIC,15,115,34,8
+    PUSHBUTTON      "Reset",IDC_BUTTON5,205,282,57,15
+    PUSHBUTTON      "Quit",IDC_BUTTON6,283,282,57,15
+    CONTROL         "3DES",IDC_RADIO4,"Button",BS_AUTORADIOBUTTON | 
+                    WS_DISABLED | WS_GROUP,25,66,41,14
+    GROUPBOX        "Security Keys",IDC_STATIC,13,94,141,84
+    EDITTEXT        IDC_EDIT2,60,125,89,13,ES_AUTOHSCROLL | WS_DISABLED
+    LTEXT           "Debit",IDC_STATIC,14,130,44,8
+    GROUPBOX        "Account Functions",IDC_STATIC,13,181,141,116
+    EDITTEXT        IDC_EDIT4,60,155,89,13,ES_AUTOHSCROLL | WS_DISABLED
+    LTEXT           "Certify",IDC_STATIC,14,145,34,8
+    EDITTEXT        IDC_EDIT3,60,140,89,13,ES_AUTOHSCROLL | WS_DISABLED
+    LTEXT           "Revoke Debit",IDC_STATIC,15,160,44,8
+    EDITTEXT        IDC_EDIT5,60,197,89,13,ES_AUTOHSCROLL | ES_NUMBER | 
+                    WS_DISABLED
+    LTEXT           "Amount",IDC_STATIC,30,202,25,8
+    PUSHBUTTON      "Inquire Balance",IDC_BUTTON8,82,249,57,15,WS_DISABLED
+    PUSHBUTTON      "Debit",IDC_BUTTON9,23,274,57,15,WS_DISABLED
+    PUSHBUTTON      "Revoke Debit",IDC_BUTTON10,82,274,57,15,WS_DISABLED
+    CONTROL         "Require Debit Certificate",IDC_CHECK2,"Button",
+                    BS_AUTOCHECKBOX | WS_DISABLED | WS_TABSTOP,24,226,99,11
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904B0"
+        BEGIN
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "ACOS Sample Codes MFC Application\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "ACOS Sample Codes\0"
+            VALUE "LegalCopyright", "Copyright (C) 2005\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "ACOS Sample Codes.EXE\0"
+            VALUE "ProductName", "ACOS Sample Codes Application\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_ACOSSAMPLECODES_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 388
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 297
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDS_ABOUTBOX            "&About ACOS Sample Codes..."
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif //_WIN32
+#include "res\ACOS Sample Codes.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

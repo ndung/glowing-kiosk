@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="Polling">
+</Property><Property Name="Solution File" Value="E:\ACR100 Sample Codes\MS Visual C#\Others\Polling\Polling.sln">
+</Property><Property Name="User Options File" Value="E:\ACR100 Sample Codes\MS Visual C#\Others\Polling\Polling.suo">
+</Property><Property Name="Date" Value="Friday, August 29, 2008">
+</Property><Property Name="Time" Value="16:41 PM">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="Polling.sln" Description="File successfully backed up as E:\ACR100 Sample Codes\MS Visual C#\Others\Polling\Backup\Polling.sln">
+</Event><Event ErrorLevel="0" Project="" Source="Polling.suo" Description="File successfully backed up as E:\ACR100 Sample Codes\MS Visual C#\Others\Polling\Backup\Polling.suo">
+</Event><Event ErrorLevel="0" Project="Polling" Source="Polling.csproj" Description="Project file successfully backed up as E:\ACR100 Sample Codes\MS Visual C#\Others\Polling\Backup\Polling.csproj">
+</Event><Event ErrorLevel="0" Project="Polling" Source="Polling.csproj.user" Description="Project user file successfully backed up as E:\ACR100 Sample Codes\MS Visual C#\Others\Polling\Backup\Polling.csproj.user">
+</Event><Event ErrorLevel="0" Project="Polling" Source="AssemblyInfo.cs" Description="File successfully backed up as E:\ACR100 Sample Codes\MS Visual C#\Others\Polling\Backup\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="Polling" Source="Form1.cs" Description="File successfully backed up as E:\ACR100 Sample Codes\MS Visual C#\Others\Polling\Backup\Form1.cs">
+</Event><Event ErrorLevel="0" Project="Polling" Source="ModWinsCard.cs" Description="File successfully backed up as E:\ACR100 Sample Codes\MS Visual C#\Others\Polling\Backup\ModWinsCard.cs">
+</Event><Event ErrorLevel="0" Project="Polling" Source="App.ico" Description="File successfully backed up as E:\ACR100 Sample Codes\MS Visual C#\Others\Polling\Backup\App.ico">
+</Event><Event ErrorLevel="0" Project="Polling" Source="Form1.resx" Description="File successfully backed up as E:\ACR100 Sample Codes\MS Visual C#\Others\Polling\Backup\Form1.resx">
+</Event><Event ErrorLevel="0" Project="Polling" Source="Polling.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="Polling" Source="Polling.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="Polling.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="Polling.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Polling" Source="Polling.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

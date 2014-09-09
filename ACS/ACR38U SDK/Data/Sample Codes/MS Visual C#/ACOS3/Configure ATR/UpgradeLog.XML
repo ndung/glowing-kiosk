@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="Configure ATR">
+</Property><Property Name="Solution File" Value="G:\ACR100C to H\Sample Code\MS Visual C#\ACOS3\Configure ATR\Configure ATR.sln">
+</Property><Property Name="User Options File" Value="G:\ACR100C to H\Sample Code\MS Visual C#\ACOS3\Configure ATR\Configure ATR.suo">
+</Property><Property Name="Date" Value="Friday, April 18, 2008">
+</Property><Property Name="Time" Value="14:46 PM">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="Configure ATR.sln" Description="File successfully backed up as G:\ACR100C to H\Sample Code\MS Visual C#\ACOS3\Configure ATR\Backup\Configure ATR.sln">
+</Event><Event ErrorLevel="0" Project="" Source="Configure ATR.suo" Description="File successfully backed up as G:\ACR100C to H\Sample Code\MS Visual C#\ACOS3\Configure ATR\Backup\Configure ATR.suo">
+</Event><Event ErrorLevel="0" Project="Configure ATR" Source="Configure ATR.csproj" Description="Project file successfully backed up as G:\ACR100C to H\Sample Code\MS Visual C#\ACOS3\Configure ATR\Backup\Configure ATR.csproj">
+</Event><Event ErrorLevel="0" Project="Configure ATR" Source="Configure ATR.csproj.user" Description="Project user file successfully backed up as G:\ACR100C to H\Sample Code\MS Visual C#\ACOS3\Configure ATR\Backup\Configure ATR.csproj.user">
+</Event><Event ErrorLevel="0" Project="Configure ATR" Source="AssemblyInfo.cs" Description="File successfully backed up as G:\ACR100C to H\Sample Code\MS Visual C#\ACOS3\Configure ATR\Backup\AssemblyInfo.cs">
+</Event><Event ErrorLevel="0" Project="Configure ATR" Source="Form1.cs" Description="File successfully backed up as G:\ACR100C to H\Sample Code\MS Visual C#\ACOS3\Configure ATR\Backup\Form1.cs">
+</Event><Event ErrorLevel="0" Project="Configure ATR" Source="ModWinsCard.cs" Description="File successfully backed up as G:\ACR100C to H\Sample Code\MS Visual C#\ACOS3\Configure ATR\Backup\ModWinsCard.cs">
+</Event><Event ErrorLevel="0" Project="Configure ATR" Source="App.ico" Description="File successfully backed up as G:\ACR100C to H\Sample Code\MS Visual C#\ACOS3\Configure ATR\Backup\App.ico">
+</Event><Event ErrorLevel="0" Project="Configure ATR" Source="Form1.resx" Description="File successfully backed up as G:\ACR100C to H\Sample Code\MS Visual C#\ACOS3\Configure ATR\Backup\Form1.resx">
+</Event><Event ErrorLevel="0" Project="Configure ATR" Source="Configure ATR.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="Configure ATR" Source="Configure ATR.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="Configure ATR.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="Configure ATR.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Configure ATR" Source="Configure ATR.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

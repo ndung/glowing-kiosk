@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="ACOSEncrypt">
+</Property><Property Name="Solution File" Value="G:\ACR100C to H\Sample Code\MS Visual Basic .NET\ACOS3\ACOS3 Encrypt\ACOSEncrypt.sln">
+</Property><Property Name="User Options File" Value="G:\ACR100C to H\Sample Code\MS Visual Basic .NET\ACOS3\ACOS3 Encrypt\ACOSEncrypt.suo">
+</Property><Property Name="Date" Value="Tuesday, April 22, 2008">
+</Property><Property Name="Time" Value="16:58 PM">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="ACOSEncrypt.sln" Description="File successfully backed up as G:\ACR100C to H\Sample Code\MS Visual Basic .NET\ACOS3\ACOS3 Encrypt\Backup\ACOSEncrypt.sln">
+</Event><Event ErrorLevel="0" Project="" Source="ACOSEncrypt.suo" Description="File successfully backed up as G:\ACR100C to H\Sample Code\MS Visual Basic .NET\ACOS3\ACOS3 Encrypt\Backup\ACOSEncrypt.suo">
+</Event><Event ErrorLevel="0" Project="ACOSEncrypt" Source="ACOSEncrypt.vbproj" Description="Project file successfully backed up as G:\ACR100C to H\Sample Code\MS Visual Basic .NET\ACOS3\ACOS3 Encrypt\Backup\ACOSEncrypt.vbproj">
+</Event><Event ErrorLevel="0" Project="ACOSEncrypt" Source="ACOSEncrypt.vbproj.user" Description="Project user file successfully backed up as G:\ACR100C to H\Sample Code\MS Visual Basic .NET\ACOS3\ACOS3 Encrypt\Backup\ACOSEncrypt.vbproj.user">
+</Event><Event ErrorLevel="0" Project="ACOSEncrypt" Source="AssemblyInfo.vb" Description="File successfully backed up as G:\ACR100C to H\Sample Code\MS Visual Basic .NET\ACOS3\ACOS3 Encrypt\Backup\AssemblyInfo.vb">
+</Event><Event ErrorLevel="0" Project="ACOSEncrypt" Source="Chain3DES.vb" Description="File successfully backed up as G:\ACR100C to H\Sample Code\MS Visual Basic .NET\ACOS3\ACOS3 Encrypt\Backup\Chain3DES.vb">
+</Event><Event ErrorLevel="0" Project="ACOSEncrypt" Source="Form1.vb" Description="File successfully backed up as G:\ACR100C to H\Sample Code\MS Visual Basic .NET\ACOS3\ACOS3 Encrypt\Backup\Form1.vb">
+</Event><Event ErrorLevel="0" Project="ACOSEncrypt" Source="ModWinsCard.vb" Description="File successfully backed up as G:\ACR100C to H\Sample Code\MS Visual Basic .NET\ACOS3\ACOS3 Encrypt\Backup\ModWinsCard.vb">
+</Event><Event ErrorLevel="0" Project="ACOSEncrypt" Source="Form1.resx" Description="File successfully backed up as G:\ACR100C to H\Sample Code\MS Visual Basic .NET\ACOS3\ACOS3 Encrypt\Backup\Form1.resx">
+</Event><Event ErrorLevel="0" Project="ACOSEncrypt" Source="ACOSEncrypt.vbproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="ACOSEncrypt" Source="ACOSEncrypt.vbproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="ACOSEncrypt.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="ACOSEncrypt.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="ACOSEncrypt" Source="ACOSEncrypt.vbproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

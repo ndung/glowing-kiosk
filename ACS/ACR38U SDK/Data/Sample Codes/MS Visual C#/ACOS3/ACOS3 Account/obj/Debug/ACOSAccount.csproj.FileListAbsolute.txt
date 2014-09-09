@@ -1,0 +1,7 @@
+D:\installer\ACR38U SDK\Data\Sample Codes\MS Visual C#\ACOS3\ACOS3 Account\bin\Debug\ACOSAccount.exe
+D:\installer\ACR38U SDK\Data\Sample Codes\MS Visual C#\ACOS3\ACOS3 Account\bin\Debug\ACOSAccount.pdb
+D:\installer\ACR38U SDK\Data\Sample Codes\MS Visual C#\ACOS3\ACOS3 Account\obj\Debug\ACOSAccount.csprojResolveAssemblyReference.cache
+D:\installer\ACR38U SDK\Data\Sample Codes\MS Visual C#\ACOS3\ACOS3 Account\obj\Debug\ACOSAccount.Form1.resources
+D:\installer\ACR38U SDK\Data\Sample Codes\MS Visual C#\ACOS3\ACOS3 Account\obj\Debug\ACOSAccount.csproj.GenerateResource.Cache
+D:\installer\ACR38U SDK\Data\Sample Codes\MS Visual C#\ACOS3\ACOS3 Account\obj\Debug\ACOSAccount.exe
+D:\installer\ACR38U SDK\Data\Sample Codes\MS Visual C#\ACOS3\ACOS3 Account\obj\Debug\ACOSAccount.pdb

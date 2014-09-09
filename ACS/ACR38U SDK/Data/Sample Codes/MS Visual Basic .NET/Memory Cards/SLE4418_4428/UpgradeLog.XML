@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="SLE4418_4428">
+</Property><Property Name="Solution File" Value="E:\Memory Card\MS Visual Basic .NET\Memory Cards\SLE4418_4428\SLE4418_4428.sln">
+</Property><Property Name="User Options File" Value="E:\Memory Card\MS Visual Basic .NET\Memory Cards\SLE4418_4428\SLE4418_4428.suo">
+</Property><Property Name="Date" Value="Tuesday, September 02, 2008">
+</Property><Property Name="Time" Value="12:13 PM">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="SLE4418_4428.sln" Description="File successfully backed up as E:\Memory Card\MS Visual Basic .NET\Memory Cards\SLE4418_4428\Backup\SLE4418_4428.sln">
+</Event><Event ErrorLevel="0" Project="" Source="SLE4418_4428.suo" Description="File successfully backed up as E:\Memory Card\MS Visual Basic .NET\Memory Cards\SLE4418_4428\Backup\SLE4418_4428.suo">
+</Event><Event ErrorLevel="0" Project="SLE4418_4428" Source="SLE4418_4428.vbproj" Description="Project file successfully backed up as E:\Memory Card\MS Visual Basic .NET\Memory Cards\SLE4418_4428\Backup\SLE4418_4428.vbproj">
+</Event><Event ErrorLevel="0" Project="SLE4418_4428" Source="SLE4418_4428.vbproj.user" Description="Project user file successfully backed up as E:\Memory Card\MS Visual Basic .NET\Memory Cards\SLE4418_4428\Backup\SLE4418_4428.vbproj.user">
+</Event><Event ErrorLevel="0" Project="SLE4418_4428" Source="AssemblyInfo.vb" Description="File successfully backed up as E:\Memory Card\MS Visual Basic .NET\Memory Cards\SLE4418_4428\Backup\AssemblyInfo.vb">
+</Event><Event ErrorLevel="0" Project="SLE4418_4428" Source="frm_Main.vb" Description="File successfully backed up as E:\Memory Card\MS Visual Basic .NET\Memory Cards\SLE4418_4428\Backup\frm_Main.vb">
+</Event><Event ErrorLevel="0" Project="SLE4418_4428" Source="ModWinscard.vb" Description="File successfully backed up as E:\Memory Card\MS Visual Basic .NET\Memory Cards\SLE4418_4428\Backup\ModWinscard.vb">
+</Event><Event ErrorLevel="0" Project="SLE4418_4428" Source="frm_Main.resx" Description="File successfully backed up as E:\Memory Card\MS Visual Basic .NET\Memory Cards\SLE4418_4428\Backup\frm_Main.resx">
+</Event><Event ErrorLevel="0" Project="SLE4418_4428" Source="SLE4418_4428.vbproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="SLE4418_4428" Source="SLE4418_4428.vbproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="SLE4418_4428.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="SLE4418_4428.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="SLE4418_4428" Source="SLE4418_4428.vbproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

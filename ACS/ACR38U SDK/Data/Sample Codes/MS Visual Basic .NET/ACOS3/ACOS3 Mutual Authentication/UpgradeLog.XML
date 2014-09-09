@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="ACOSMutualAuthentication">
+</Property><Property Name="Solution File" Value="G:\ACR100C to H\Sample Code\MS Visual Basic .NET\ACOS3\ACOS3 Mutual Authentication\ACOSMutualAuthentication.sln">
+</Property><Property Name="User Options File" Value="G:\ACR100C to H\Sample Code\MS Visual Basic .NET\ACOS3\ACOS3 Mutual Authentication\ACOSMutualAuthentication.suo">
+</Property><Property Name="Date" Value="Tuesday, April 22, 2008">
+</Property><Property Name="Time" Value="17:15 PM">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="ACOSMutualAuthentication.sln" Description="File successfully backed up as G:\ACR100C to H\Sample Code\MS Visual Basic .NET\ACOS3\ACOS3 Mutual Authentication\Backup\ACOSMutualAuthentication.sln">
+</Event><Event ErrorLevel="0" Project="" Source="ACOSMutualAuthentication.suo" Description="File successfully backed up as G:\ACR100C to H\Sample Code\MS Visual Basic .NET\ACOS3\ACOS3 Mutual Authentication\Backup\ACOSMutualAuthentication.suo">
+</Event><Event ErrorLevel="0" Project="ACOSMutualAuthentication" Source="ACOSMutualAuthentication.vbproj" Description="Project file successfully backed up as G:\ACR100C to H\Sample Code\MS Visual Basic .NET\ACOS3\ACOS3 Mutual Authentication\Backup\ACOSMutualAuthentication.vbproj">
+</Event><Event ErrorLevel="0" Project="ACOSMutualAuthentication" Source="ACOSMutualAuthentication.vbproj.user" Description="Project user file successfully backed up as G:\ACR100C to H\Sample Code\MS Visual Basic .NET\ACOS3\ACOS3 Mutual Authentication\Backup\ACOSMutualAuthentication.vbproj.user">
+</Event><Event ErrorLevel="0" Project="ACOSMutualAuthentication" Source="AssemblyInfo.vb" Description="File successfully backed up as G:\ACR100C to H\Sample Code\MS Visual Basic .NET\ACOS3\ACOS3 Mutual Authentication\Backup\AssemblyInfo.vb">
+</Event><Event ErrorLevel="0" Project="ACOSMutualAuthentication" Source="Chain3DES.vb" Description="File successfully backed up as G:\ACR100C to H\Sample Code\MS Visual Basic .NET\ACOS3\ACOS3 Mutual Authentication\Backup\Chain3DES.vb">
+</Event><Event ErrorLevel="0" Project="ACOSMutualAuthentication" Source="Form1.vb" Description="File successfully backed up as G:\ACR100C to H\Sample Code\MS Visual Basic .NET\ACOS3\ACOS3 Mutual Authentication\Backup\Form1.vb">
+</Event><Event ErrorLevel="0" Project="ACOSMutualAuthentication" Source="ModWinsCard.vb" Description="File successfully backed up as G:\ACR100C to H\Sample Code\MS Visual Basic .NET\ACOS3\ACOS3 Mutual Authentication\Backup\ModWinsCard.vb">
+</Event><Event ErrorLevel="0" Project="ACOSMutualAuthentication" Source="Form1.resx" Description="File successfully backed up as G:\ACR100C to H\Sample Code\MS Visual Basic .NET\ACOS3\ACOS3 Mutual Authentication\Backup\Form1.resx">
+</Event><Event ErrorLevel="0" Project="ACOSMutualAuthentication" Source="ACOSMutualAuthentication.vbproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="ACOSMutualAuthentication" Source="ACOSMutualAuthentication.vbproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="ACOSMutualAuthentication.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="ACOSMutualAuthentication.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="ACOSMutualAuthentication" Source="ACOSMutualAuthentication.vbproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

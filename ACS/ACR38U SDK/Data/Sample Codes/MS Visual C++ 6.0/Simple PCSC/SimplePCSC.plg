@@ -1,0 +1,53 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: SimplePCSC - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Debug/SimplePCSC.res" /d "_DEBUG" /d "_AFXDLL" "E:\Programs\ACR100\Sample Codes\ACR100F\MS Visual C++ 6.0\Simple PCSC\SimplePCSC.rc"" 
+Creating temporary file "C:\DOCUME~1\Wazer\LOCALS~1\Temp\RSP10E.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/SimplePCSC.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\Programs\ACR100\Sample Codes\ACR100F\MS Visual C++ 6.0\Simple PCSC\SimplePCSC.cpp"
+"E:\Programs\ACR100\Sample Codes\ACR100F\MS Visual C++ 6.0\Simple PCSC\SimplePCSCDlg.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Wazer\LOCALS~1\Temp\RSP10E.tmp" 
+Creating temporary file "C:\DOCUME~1\Wazer\LOCALS~1\Temp\RSP10F.tmp" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Debug/SimplePCSC.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\Programs\ACR100\Sample Codes\ACR100F\MS Visual C++ 6.0\Simple PCSC\StdAfx.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\Wazer\LOCALS~1\Temp\RSP10F.tmp" 
+Creating temporary file "C:\DOCUME~1\Wazer\LOCALS~1\Temp\RSP110.tmp" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/SimplePCSC.pdb" /debug /machine:I386 /out:"Debug/SimplePCSC.exe" /pdbtype:sept 
+".\Debug\SimplePCSC.obj"
+".\Debug\SimplePCSCDlg.obj"
+".\Debug\StdAfx.obj"
+".\Debug\SimplePCSC.res"
+".\Winscard.lib"
+]
+Creating command line "link.exe @C:\DOCUME~1\Wazer\LOCALS~1\Temp\RSP110.tmp"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+StdAfx.cpp
+Compiling...
+SimplePCSC.cpp
+SimplePCSCDlg.cpp
+E:\Programs\ACR100\Sample Codes\ACR100F\MS Visual C++ 6.0\Simple PCSC\SimplePCSCDlg.cpp(592) : warning C4018: '<' : signed/unsigned mismatch
+E:\Programs\ACR100\Sample Codes\ACR100F\MS Visual C++ 6.0\Simple PCSC\SimplePCSCDlg.cpp(728) : warning C4018: '<' : signed/unsigned mismatch
+E:\Programs\ACR100\Sample Codes\ACR100F\MS Visual C++ 6.0\Simple PCSC\SimplePCSCDlg.cpp(738) : warning C4018: '<' : signed/unsigned mismatch
+E:\Programs\ACR100\Sample Codes\ACR100F\MS Visual C++ 6.0\Simple PCSC\SimplePCSCDlg.cpp(753) : warning C4018: '<' : signed/unsigned mismatch
+Generating Code...
+Linking...
+
+
+
+<h3>Results</h3>
+SimplePCSC.exe - 0 error(s), 4 warning(s)
+</pre>
+</body>
+</html>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="Polling">
+</Property><Property Name="Solution File" Value="G:\ACR100C to H\Sample Code\MS Visual Basic .NET\Others\Polling\Polling.sln">
+</Property><Property Name="User Options File" Value="G:\ACR100C to H\Sample Code\MS Visual Basic .NET\Others\Polling\Polling.suo">
+</Property><Property Name="Date" Value="Tuesday, April 22, 2008">
+</Property><Property Name="Time" Value="17:22 PM">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="Polling.sln" Description="File successfully backed up as G:\ACR100C to H\Sample Code\MS Visual Basic .NET\Others\Polling\Backup\Polling.sln">
+</Event><Event ErrorLevel="0" Project="" Source="Polling.suo" Description="File successfully backed up as G:\ACR100C to H\Sample Code\MS Visual Basic .NET\Others\Polling\Backup\Polling.suo">
+</Event><Event ErrorLevel="0" Project="Polling" Source="Polling.vbproj" Description="Project file successfully backed up as G:\ACR100C to H\Sample Code\MS Visual Basic .NET\Others\Polling\Backup\Polling.vbproj">
+</Event><Event ErrorLevel="0" Project="Polling" Source="Polling.vbproj.user" Description="Project user file successfully backed up as G:\ACR100C to H\Sample Code\MS Visual Basic .NET\Others\Polling\Backup\Polling.vbproj.user">
+</Event><Event ErrorLevel="0" Project="Polling" Source="AssemblyInfo.vb" Description="File successfully backed up as G:\ACR100C to H\Sample Code\MS Visual Basic .NET\Others\Polling\Backup\AssemblyInfo.vb">
+</Event><Event ErrorLevel="0" Project="Polling" Source="Form1.vb" Description="File successfully backed up as G:\ACR100C to H\Sample Code\MS Visual Basic .NET\Others\Polling\Backup\Form1.vb">
+</Event><Event ErrorLevel="0" Project="Polling" Source="ModWinsCard.vb" Description="File successfully backed up as G:\ACR100C to H\Sample Code\MS Visual Basic .NET\Others\Polling\Backup\ModWinsCard.vb">
+</Event><Event ErrorLevel="0" Project="Polling" Source="Form1.resx" Description="File successfully backed up as G:\ACR100C to H\Sample Code\MS Visual Basic .NET\Others\Polling\Backup\Form1.resx">
+</Event><Event ErrorLevel="0" Project="Polling" Source="Polling.vbproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="Polling" Source="Polling.vbproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="Polling.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="Polling.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Polling" Source="Polling.vbproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

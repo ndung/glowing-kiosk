@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="ACOSReadWrite">
+</Property><Property Name="Solution File" Value="K:\SDK Components\ACR38 SDK Version 2.8\Sample Codes\MS Visual C# 2005\ACOS3\ACOS3 ReadWrite\ACOSReadWrite.sln">
+</Property><Property Name="Date" Value="Thursday, April 24, 2008">
+</Property><Property Name="Time" Value="17:43 PM">
+</Property></Properties><Event ErrorLevel="0" Project="ACOSReadWrite" Source="ACOSReadWrite.csproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="ACOSReadWrite" Source="ACOSReadWrite.csproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="ACOSReadWrite.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="ACOSReadWrite.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="ACOSReadWrite" Source="ACOSReadWrite.csproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>
