@@ -17,3 +17,17 @@ S:\SDK\SDK Package 1.1\Software Development Kits\Windows\C# .Net\SMART Payout\VS
 C:\Users\lmanik\Downloads\SDK Package 1.1\Software Development Kits\Windows\C# .Net\SMART Payout\VS2010 Project\eSSP_example\bin\Debug\eSSP_example.exe.config
 C:\Users\lmanik\Downloads\SDK Package 1.1\Software Development Kits\Windows\C# .Net\SMART Payout\VS2010 Project\eSSP_example\obj\Debug\eSSP_example.exe
 C:\Users\lmanik\Downloads\SDK Package 1.1\Software Development Kits\Windows\C# .Net\SMART Payout\VS2010 Project\eSSP_example\obj\Debug\eSSP_example.pdb
+D:\workplace\projects\glowing-kiosk\INNOVATIVE\SDK Package 1.1\Software Development Kits\Windows\C# .Net\SMART Payout\VS2010 Project\eSSP_example\bin\Debug\eSSP_example.exe.config
+D:\workplace\projects\glowing-kiosk\INNOVATIVE\SDK Package 1.1\Software Development Kits\Windows\C# .Net\SMART Payout\VS2010 Project\eSSP_example\obj\Debug\eSSP_example.exe
+D:\workplace\projects\glowing-kiosk\INNOVATIVE\SDK Package 1.1\Software Development Kits\Windows\C# .Net\SMART Payout\VS2010 Project\eSSP_example\obj\Debug\eSSP_example.pdb
+D:\workplace\projects\glowing-kiosk\INNOVATIVE\SDK Package 1.1\Software Development Kits\Windows\C# .Net\SMART Payout\VS2010 Project\eSSP_example\bin\Debug\eSSP_example.exe
+D:\workplace\projects\glowing-kiosk\INNOVATIVE\SDK Package 1.1\Software Development Kits\Windows\C# .Net\SMART Payout\VS2010 Project\eSSP_example\bin\Debug\eSSP_example.pdb
+D:\workplace\projects\glowing-kiosk\INNOVATIVE\SDK Package 1.1\Software Development Kits\Windows\C# .Net\SMART Payout\VS2010 Project\eSSP_example\bin\Debug\ITLlib.dll
+D:\workplace\projects\glowing-kiosk\INNOVATIVE\SDK Package 1.1\Software Development Kits\Windows\C# .Net\SMART Payout\VS2010 Project\eSSP_example\obj\Debug\eSSP_example.csprojResolveAssemblyReference.cache
+D:\workplace\projects\glowing-kiosk\INNOVATIVE\SDK Package 1.1\Software Development Kits\Windows\C# .Net\SMART Payout\VS2010 Project\eSSP_example\obj\Debug\eSSP_example.CCommsWindow.resources
+D:\workplace\projects\glowing-kiosk\INNOVATIVE\SDK Package 1.1\Software Development Kits\Windows\C# .Net\SMART Payout\VS2010 Project\eSSP_example\obj\Debug\eSSP_example.Form1.resources
+D:\workplace\projects\glowing-kiosk\INNOVATIVE\SDK Package 1.1\Software Development Kits\Windows\C# .Net\SMART Payout\VS2010 Project\eSSP_example\obj\Debug\eSSP_example.frmPayoutByDenom.resources
+D:\workplace\projects\glowing-kiosk\INNOVATIVE\SDK Package 1.1\Software Development Kits\Windows\C# .Net\SMART Payout\VS2010 Project\eSSP_example\obj\Debug\eSSP_example.frmSettings.resources
+D:\workplace\projects\glowing-kiosk\INNOVATIVE\SDK Package 1.1\Software Development Kits\Windows\C# .Net\SMART Payout\VS2010 Project\eSSP_example\obj\Debug\eSSP_example.frmOpenMenu.resources
+D:\workplace\projects\glowing-kiosk\INNOVATIVE\SDK Package 1.1\Software Development Kits\Windows\C# .Net\SMART Payout\VS2010 Project\eSSP_example\obj\Debug\eSSP_example.Properties.Resources.resources
+D:\workplace\projects\glowing-kiosk\INNOVATIVE\SDK Package 1.1\Software Development Kits\Windows\C# .Net\SMART Payout\VS2010 Project\eSSP_example\obj\Debug\eSSP_example.csproj.GenerateResource.Cache
