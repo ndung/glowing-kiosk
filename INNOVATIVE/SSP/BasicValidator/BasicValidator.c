@@ -55,9 +55,11 @@ void parse_poll(SSP_COMMAND *sspC, SSP_POLL_DATA6 * poll)
         case SSP_POLL_RESET:
             printf("Unit Reset\n");
             // Make sure we are using ssp version 6
-            if (ssp6_host_protocol(sspC, 0x06) != SSP_RESPONSE_OK)
+            SSP_RESPONSE_ENUM ssp_response = ssp6_host_protocol(sspC, 0x06);
+            if (ssp_response != SSP_RESPONSE_OK)
             {
                 printf("Host Protocol Failed\n");
+                generate_response(ssp_response);
                 return;
             }
             else{
@@ -458,18 +460,29 @@ void do_action(){
     else if (strcmp(cmd_code,"11")==0){
         printf("do action for enabling\n");
         enable();
-    }		
-    else if (strcmp(cmd_code,"12")==0){
+    }		    
+    else if (strcmp(cmd_code,"13")==0){
+        printf("do action for dispensing by denom\n");
+        printf("payout_data: %s\n",payout_data);
+        if (dispensing==0){
+            SSP_RESPONSE_ENUM ssp_response = ssp6_payout_by_denom(sspC, payout_data, cc, SSP6_OPTION_BYTE_DO);
+            memset(payout_data, 0, 255);
+            if (ssp_response != SSP_RESPONSE_OK){
+                generate_response(ssp_response);
+            }
+        }
+    }
+    else if (strcmp(cmd_code,"14")==0){
         printf("do action for disabling validator\n");
         ssp_response = ssp6_disable(sspC);
         generate_response(ssp_response);
     }
-    else if (strcmp(cmd_code,"13")==0){
+    else if (strcmp(cmd_code,"15")==0){
         printf("do action for disabling payout\n");
         ssp_response = ssp6_disable_payout(sspC);
         generate_response(ssp_response);
     }
-    else if (strcmp(cmd_code,"14")==0){
+    else if (strcmp(cmd_code,"16")==0){
         printf("do action for getting cashbox payout op data\n");
         SSP_RESPONSE_ENUM ssp_response = ssp6_get_cashbox_payout_op_data(sspC);
         if (ssp_response != SSP_RESPONSE_OK){
@@ -508,18 +521,7 @@ void do_action(){
 
             generate_success_response_data(rs_data, num*24+13);
         }
-    }
-    else if (strcmp(cmd_code,"15")==0){
-        printf("do action for dispensing by denom\n");
-        printf("payout_data: %s\n",payout_data);
-        if (dispensing==0){
-            SSP_RESPONSE_ENUM ssp_response = ssp6_payout_by_denom(sspC, payout_data, cc, SSP6_OPTION_BYTE_DO);
-            memset(payout_data, 0, 255);
-            if (ssp_response != SSP_RESPONSE_OK){
-                generate_response(ssp_response);
-            }
-        }
-    }
+    }    
     memset(cmd_code, 0, 3);
 }
 
@@ -682,7 +684,7 @@ void *connection_handler(void *socket_desc)
             strncpy(denom_amount,&message[18],12);
             denom_amount[13] = '\0';
         }
-        else if (strcmp(cmd_code,"15")==0){
+        else if (strcmp(cmd_code,"13")==0){
             char denoms_to_payout[2];
             strncpy(denoms_to_payout,&message[18],1);
             denoms_to_payout[1] = '\0';
@@ -755,7 +757,13 @@ void make_float(int min, int amount){
 }
 
 void generate_status(char* status){
-
+    char data[13];
+    strcpy (data, "0008NQ");
+    strcat (data, dev_code);
+    strcat (data, "12");
+    strcat (data, status);
+    data[12]='\0';
+    write(sock,data,12);
 }
 
 void generate_note_info_data(char* request_data){
