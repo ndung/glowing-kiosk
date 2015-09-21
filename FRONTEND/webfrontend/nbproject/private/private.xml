@@ -1,17 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
-    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/1">
-        <file>file:/D:/workplace/indo-cipta-guna/kiosk/sskfrontend/web/js/megamenu/jquerymega.js</file>
-        <file>file:/D:/workplace/indo-cipta-guna/kiosk/sskfrontend/src/java/com/ics/ssk/ego/device/SocketConnectionServer.java</file>
-        <file>file:/D:/workplace/indo-cipta-guna/kiosk/sskfrontend/src/java/com/ics/ssk/ego/device/SocketHandlerFactory.java</file>
-        <file>file:/D:/workplace/indo-cipta-guna/kiosk/sskfrontend/src/java/com/ics/ssk/ego/device/controller/SmartPayoutController.java</file>
-        <file>file:/D:/workplace/indo-cipta-guna/kiosk/sskfrontend/src/java/com/ics/ssk/ego/device/SocketClientProvider.java</file>
-        <file>file:/D:/workplace/indo-cipta-guna/kiosk/sskfrontend/src/java/com/ics/ssk/ego/device/SocketServerProvider.java</file>
-        <file>file:/D:/workplace/indo-cipta-guna/kiosk/sskfrontend/src/java/com/ics/ssk/ego/iso8583/PrefixedStringCodecFactory.java</file>
-        <file>file:/D:/workplace/indo-cipta-guna/kiosk/sskfrontend/src/java/com/ics/ssk/ego/iso8583/PrefixedStringDecoder.java</file>
-        <file>file:/D:/workplace/indo-cipta-guna/kiosk/sskfrontend/web/WEB-INF/applicationContext-manager.xml</file>
-        <file>file:/D:/workplace/indo-cipta-guna/kiosk/sskfrontend/web/WEB-INF/applicationContext-resource.xml</file>
-        <file>file:/D:/workplace/indo-cipta-guna/kiosk/sskfrontend/src/java/jdbc.properties</file>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group/>
     </open-files>
 </project-private>

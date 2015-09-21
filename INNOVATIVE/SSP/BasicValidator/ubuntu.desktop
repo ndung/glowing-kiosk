@@ -1,0 +1,6 @@
+[Desktop Entry]
+Name=Firefox (No effects)
+Comment=This session only opens Firefox
+Exec=/usr/bin/firefox -height 1200 -width 1600
+Icon=
+Type=Application
